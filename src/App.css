@@ -59,6 +59,10 @@ h3 {
   margin: 0 auto;
 }
 
+header {
+  background: var(--navy);
+}
+
 .nav {
   display: flex;
   align-items: center;
