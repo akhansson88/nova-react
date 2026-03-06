@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App.jsx';
+import './App.css';
 
-function App() {
-  return (
-    <main style={{ fontFamily: 'Inter, sans-serif', padding: '2rem' }}>
-      <h1>Novatryck – Om oss</h1>
-      <p>Sidan är nu korrekt konfigurerad för Vite-bygg.</p>
-    </main>
-  );
-}
-
+// Create the root element and render the application.
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
