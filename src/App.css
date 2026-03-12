@@ -2307,6 +2307,243 @@ header {
   }
 }
 
+/* Kontakt page section */
+.contact-page-section {
+  background: #ffffff !important;
+  color: #341306;
+}
+
+.contact-page-container {
+  width: min(1120px, calc(100% - 48px));
+  margin: 0 auto;
+}
+
+.contact-page-top {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px;
+  align-items: stretch;
+}
+
+.contact-info-card {
+  background: transparent;
+  padding: 26px 20px 22px;
+  min-height: 160px;
+}
+
+.contact-info-card-active {
+  background: #e5e4e4;
+}
+
+.contact-info-icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--coral);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+
+.contact-info-label {
+  color: #cf9b90;
+  font-size: 13px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.contact-info-card p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #341306;
+}
+
+.contact-form-script-wrap {
+  margin-top: 92px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-script-card {
+  width: 100%;
+  max-width: 480px;
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 2.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.6);
+  border: 1px solid #334155;
+}
+
+.contact-script-card h2 {
+  text-align: center;
+  margin: 0 0 2rem;
+  font-size: 1.8rem;
+  color: #e2e8f0;
+}
+
+.contact-script-form {
+  width: 100%;
+}
+
+.contact-script-group {
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.contact-script-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+.contact-script-group input,
+.contact-script-group textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  border: 1px solid #475569;
+  border-radius: 0.6rem;
+  background: #0f172a;
+  color: white;
+  font: inherit;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.contact-script-group input:focus,
+.contact-script-group textarea:focus {
+  outline: none;
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.contact-script-group textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.contact-script-group input::placeholder,
+.contact-script-group textarea::placeholder {
+  color: #94a3b8;
+}
+
+.contact-hp-field {
+  position: absolute;
+  left: -9999px;
+}
+
+.contact-script-submit {
+  width: 100%;
+  padding: 1rem;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s;
+  margin-top: 1rem;
+}
+
+.contact-script-submit:hover {
+  background: #4f46e5;
+  transform: translateY(-2px);
+}
+
+.contact-script-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.contact-script-success {
+  text-align: center;
+  color: #86efac;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+@media (max-width: 780px) {
+  .contact-page-container {
+    width: min(100% - 28px, 1120px);
+  }
+
+  .contact-page-top {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .contact-form-script-wrap {
+    margin-top: 64px;
+  }
+
+  .contact-script-card h2 {
+    font-size: 30px;
+  }
+}
+
+.contact-map-section {
+  background: #ffffff !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.contact-map-wrap {
+  position: relative;
+}
+
+.contact-map-frame {
+  width: 100%;
+  height: 520px;
+  border: 0;
+  display: block;
+}
+
+.contact-map-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(241, 112, 90, 0.22);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+@media (max-width: 780px) {
+  .contact-map-frame {
+    height: 420px;
+  }
+}
+
+@media (max-width: 520px) {
+  .contact-info-card p,
+  .contact-script-group input,
+  .contact-script-group textarea {
+    font-size: 15px;
+  }
+
+  .contact-script-card {
+    padding: 2rem 1.2rem;
+  }
+
+  .contact-script-card h2 {
+    font-size: 26px;
+  }
+
+  .contact-script-submit {
+    font-size: 1rem;
+  }
+
+  .contact-map-frame {
+    height: 340px;
+  }
+}
+
 /* Galleri page section */
 .gallery-projects-section {
   position: relative;
