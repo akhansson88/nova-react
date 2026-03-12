@@ -15,6 +15,15 @@ import Kontakt from './pages/Kontakt.jsx';
  * project grows.
  */
 function App() {
+  React.useEffect(() => {
+    const redirectPath = sessionStorage.getItem('spa-redirect-path');
+
+    if (redirectPath && redirectPath !== window.location.pathname + window.location.search + window.location.hash) {
+      sessionStorage.removeItem('spa-redirect-path');
+      window.history.replaceState(null, '', redirectPath);
+    }
+  }, []);
+
   return (
     <>
       {/* Header is displayed on all pages */}
