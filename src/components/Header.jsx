@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 /**
  * Header component containing the site logo, navigation menu and
@@ -22,12 +22,12 @@ function Header() {
           </div>
           {/* Navigation links */}
           <div className="menu">
-            <Link to="/">Hem</Link>
-            <Link to="/produkter">Produkter</Link>
-            <Link to="/galleri">Galleri</Link>
+            <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : undefined)}>Hem</NavLink>
+            <NavLink to="/produkter" className={({ isActive }) => (isActive ? 'active' : undefined)}>Produkter</NavLink>
+            <NavLink to="/galleri" className={({ isActive }) => (isActive ? 'active' : undefined)}>Galleri</NavLink>
             <a href="#">Referens</a>
-            <Link to="/om-oss">Om oss</Link>
-            <Link to="/reklam">Reklam</Link>
+            <NavLink to="/om-oss" className={({ isActive }) => (isActive ? 'active' : undefined)}>Om oss</NavLink>
+            <NavLink to="/reklam" className={({ isActive }) => (isActive ? 'active' : undefined)}>Reklam</NavLink>
             <a href="#">Blog</a>
           </div>
           {/* Contact button */}

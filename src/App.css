@@ -137,6 +137,12 @@ header {
   font-size: 15px;
   font-weight: 500;
   opacity: 0.95;
+  padding-bottom: 6px;
+  border-bottom: 2px solid transparent;
+}
+
+.menu a.active {
+  border-bottom-color: var(--coral);
 }
 
 .hero {
@@ -2062,7 +2068,7 @@ header {
     flex-wrap: wrap;
     margin: 8px 0 0;
   }
-  .contact-btn {
+  .cta {
     padding: 14px 28px;
   }
   .hero {
