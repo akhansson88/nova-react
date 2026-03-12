@@ -27,6 +27,7 @@ function Footer() {
               <Link to="/">Hem</Link>
               <a href="#">Tjänster</a>
               <Link to="/produkter">Produkter</Link>
+              <Link to="/galleri">Galleri</Link>
               <Link to="/om-oss">Om oss</Link>
               <Link to="/reklam">Reklam</Link>
               <a href="#">Blog</a>

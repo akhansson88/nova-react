@@ -24,6 +24,7 @@ function Header() {
           <div className="menu">
             <Link to="/">Hem</Link>
             <Link to="/produkter">Produkter</Link>
+            <Link to="/galleri">Galleri</Link>
             <a href="#">Referens</a>
             <Link to="/om-oss">Om oss</Link>
             <Link to="/reklam">Reklam</Link>
