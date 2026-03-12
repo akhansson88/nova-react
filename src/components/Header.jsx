@@ -31,7 +31,7 @@ function Header() {
             <a href="#">Blog</a>
           </div>
           {/* Contact button */}
-          <Link to="/kontakt" className="contact-btn">KONTAKT</Link>
+          <Link to="/kontakt" className="cta">KONTAKT</Link>
         </nav>
       </div>
     </header>

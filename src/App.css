@@ -139,17 +139,6 @@ header {
   opacity: 0.95;
 }
 
-.contact-btn {
-  background: var(--coral);
-  color: white;
-  border: none;
-  padding: 10px 40px;
-  border-radius: 6px;
-  font-weight: 800;
-  font-size: 15px;
-  cursor: pointer;
-}
-
 .hero {
   display: grid;
   grid-template-columns: 1.02fr 0.98fr;
