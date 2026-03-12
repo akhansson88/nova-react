@@ -1,10 +1,42 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 function Hem() {
+  const [mouseMoved, setMouseMoved] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const formTimeRef = useRef(Date.now());
+  const gotchaRef = useRef(null);
+
+  useEffect(() => {
+    const handleMouseMove = () => setMouseMoved(true);
+    document.addEventListener('mousemove', handleMouseMove, { once: true });
+    return () => document.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const timeTaken = Date.now() - formTimeRef.current;
+    const gotchaFilled = gotchaRef.current?.value?.trim();
+
+    if (timeTaken < 600 || !mouseMoved || gotchaFilled) {
+      alert('Ovanligt beteende upptäcktes. Försök igen.');
+      return;
+    }
+
+    setSubmitting(true);
+
+    setTimeout(() => {
+      setSuccess(true);
+      setSubmitting(false);
+      e.target.reset();
+      formTimeRef.current = Date.now();
+    }, 1200);
+  };
+
   return (
     <main className="page">
       <div className="container">
-        <section className="hero hero-home">
+        <section className="hero">
           <div>
             <div className="eyebrow">HEM</div>
             <h1 className="headline">
@@ -359,87 +391,93 @@ function Hem() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="home-bonus-block">
-            <div className="section-eyebrow">DESSUTOM</div>
-            <h2 className="home-bonus-title">
-              Det Är Inte Allt!
-              <br />
-              Det Finns Bonusar
-            </h2>
-            <p className="home-bonus-intro">
-              För att uppmuntra dig att testa våra utskrifter och spara pengar
-              <br />
-              har vi förberett följande:
-            </p>
+      <section className="home-bonus-section">
+        <div className="scroll-dot scroll-dot-dark">↓</div>
+        <div className="home-bonus-section-container">
+          <div className="section-eyebrow">DESSUTOM</div>
+          <h2 className="home-bonus-title">
+            Det Är Inte Allt!
+            <br />
+            Det Finns Bonusar
+          </h2>
+          <p className="home-bonus-intro">
+            För att uppmuntra dig att testa våra utskrifter och spara pengar
+            <br />
+            har vi förberett följande:
+          </p>
 
-            <div className="home-bonus-grid">
-              <div className="home-bonus-item">
-                <div className="home-bonus-top">
-                  <span className="home-bonus-number">1</span>
-                  <span className="home-bonus-label">BONUS</span>
-                </div>
-                <h3>10% RABATT.</h3>
-                <p>Få rabatt på din första beställning hos oss.</p>
+          <div className="home-bonus-grid">
+            <div className="home-bonus-item">
+              <div className="home-bonus-top">
+                <span className="home-bonus-number">1</span>
+                <span className="home-bonus-label">BONUS</span>
               </div>
-
-              <div className="home-bonus-item">
-                <div className="home-bonus-top">
-                  <span className="home-bonus-number">2</span>
-                  <span className="home-bonus-label">BONUS</span>
-                </div>
-                <h3>GRATIS PROVER</h3>
-                <p>Är du osäker på om det är det du letar efter? Hör av dig till oss så hjälper vi dig.</p>
-              </div>
+              <h3>10% RABATT.</h3>
+              <p>Få rabatt på din första beställning hos oss.</p>
             </div>
 
-            <div className="home-bonus-actions">
-              <button className="cta">FÅ OFFERT</button>
-              <button className="cta">RING OSS</button>
+            <div className="home-bonus-item">
+              <div className="home-bonus-top">
+                <span className="home-bonus-number">2</span>
+                <span className="home-bonus-label">BONUS</span>
+              </div>
+              <h3>GRATIS PROVER</h3>
+              <p>Är du osäker på om det är det du letar efter? Hör av dig till oss så hjälper vi dig.</p>
             </div>
           </div>
 
-          <div className="home-cheap-block">
-            <div className="home-cheap-layout">
-              <div className="home-cheap-copy">
-                <div className="section-eyebrow">VARFÖR</div>
-                <h2 className="home-cheap-title">
-                  Är Det Så
-                  <br />
-                  Billigt?
-                </h2>
+          <div className="home-bonus-actions">
+            <button className="cta">FÅ OFFERT</button>
+            <button className="cta">RING OSS</button>
+          </div>
+        </div>
+      </section>
 
-                <div className="home-cheap-actions">
-                  <button className="cta">FÅ OFFERT</button>
-                  <button className="cta">RING OSS</button>
-                </div>
+      <section className="home-cheap-section">
+        <div className="scroll-dot scroll-dot-dark">↓</div>
+        <div className="home-cheap-section-container">
+          <div className="home-cheap-layout">
+            <div className="home-cheap-copy">
+              <div className="section-eyebrow">VARFÖR</div>
+              <h2 className="home-cheap-title">
+                Är Det Så
+                <br />
+                Billigt?
+              </h2>
 
-                <div className="home-cheap-arrow">↘</div>
+              <div className="home-cheap-actions">
+                <button className="cta">FÅ OFFERT</button>
+                <button className="cta">RING OSS</button>
               </div>
 
-              <div className="home-cheap-list">
-                <div className="home-cheap-item">
-                  <span className="home-cheap-check">✓</span>
-                  <div>
-                    <h3>Vi vill hjälpa dig.</h3>
-                    <p>Vi vet att det kan vara frustrerande att leta efter ett tryckeri, därför levererar vi banderoller som passar perfekt till ditt behov.</p>
-                  </div>
-                </div>
+              <div className="home-cheap-arrow">↘</div>
+            </div>
 
-                <div className="home-cheap-item">
-                  <span className="home-cheap-check">✓</span>
-                  <div>
-                    <h3>Vi vill presentera oss.</h3>
-                    <p>Många företag erbjuder reklamtryck – vilket ska man välja? Med vårt erbjudande och vår service vill vi visa dig vår inställning och vilken kvalitet du kan förvänta dig. Du kommer att se att det är något helt annat än det du är van vid.</p>
-                  </div>
+            <div className="home-cheap-list">
+              <div className="home-cheap-item">
+                <span className="home-cheap-check">✓</span>
+                <div>
+                  <h3>Vi vill hjälpa dig.</h3>
+                  <p>Vi vet att det kan vara frustrerande att leta efter ett tryckeri, därför levererar vi banderoller som passar perfekt till ditt behov.</p>
                 </div>
+              </div>
 
-                <div className="home-cheap-item">
-                  <span className="home-cheap-check">✓</span>
-                  <div>
-                    <h3>För vi har uppdrag.</h3>
-                    <p>Vårt mål är att spara tid åt dig genom att leverera högkvalitativa reklamtryck i Stockholm.</p>
-                  </div>
+              <div className="home-cheap-item">
+                <span className="home-cheap-check">✓</span>
+                <div>
+                  <h3>Vi vill presentera oss.</h3>
+                  <p>Många företag erbjuder reklamtryck – vilket ska man välja? Med vårt erbjudande och vår service vill vi visa dig vår inställning och vilken kvalitet du kan förvänta dig. Du kommer att se att det är något helt annat än det du är van vid.</p>
+                </div>
+              </div>
+
+              <div className="home-cheap-item">
+                <span className="home-cheap-check">✓</span>
+                <div>
+                  <h3>För vi har uppdrag.</h3>
+                  <p>Vårt mål är att spara tid åt dig genom att leverera högkvalitativa reklamtryck i Stockholm.</p>
                 </div>
               </div>
             </div>
@@ -525,6 +563,77 @@ function Hem() {
           </div>
         </div>
       </section>
+
+      <section className="home-faq-section">
+        <div className="scroll-dot scroll-dot-dark">↓</div>
+        <div className="home-faq-container">
+          <h2 className="home-faq-title">Har Du Frågor?</h2>
+          <p className="home-faq-intro">
+            Kolla listan med vanliga frågor. Kanske hittar du svaret där.
+            <br />
+            Om inte, skriv till <strong>kontakt@novatryck.se</strong>
+          </p>
+
+          <div className="home-faq-list">
+            <div className="home-faq-item">
+              <h3>Hur länge måste jag vänta på mitt paket?</h3>
+              <p><span className="home-faq-dot">✚</span> Beroende på orderstorleken 1–3 arbetsdagar. Vi levererar</p>
+            </div>
+
+            <div className="home-faq-item">
+              <h3>Kommer jag att få en faktura ?</h3>
+              <p><span className="home-faq-dot">✚</span> Ja, du får det. Kom bara ihåg att ange dina uppgifter vid köpet.</p>
+            </div>
+
+            <div className="home-faq-item">
+              <h3>Hur gör man en beställning?</h3>
+              <p><span className="home-faq-dot">✚</span> Klicka här för en steg-för-steg-guide om hur du beställer trycksaker.</p>
+            </div>
+
+            <div className="home-faq-item">
+              <h3>Är du osäker på om rollup-banderollerna kommer att stämma överens med designen?</h3>
+              <p><span className="home-faq-dot">✚</span> Slut med besvikelser på grund av felaktiga utskrifter och slösade budgetar.</p>
+            </div>
+
+            <div className="home-faq-item">
+              <h3>Hur snabb är banderollutskriften i Stockholm?</h3>
+              <p><span className="home-faq-dot">✚</span> Vår tryckeri i Stockholm levererar beställningar inom 24 timmar, vilket</p>
+            </div>
+
+            <div className="home-faq-item">
+              <h3>Kommer banderollernas finish att ge ett professionellt intryck?</h3>
+              <p><span className="home-faq-dot">✚</span> Vi erbjuder precisa alternativ, såsom öljor och tunnlar, för ett elegant</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="contact-band-section">
+        <div className="contact-band-container">
+          <div className="contact-band">
+            <div className="contact-band-copy">
+              <h2>
+                Har du fler frågor
+                <br />
+                eller är nåt oklart?
+              </h2>
+              <button className="contact-band-btn">SKRIV</button>
+            </div>
+            <div className="contact-band-art">
+              <div className="contact-band-circle"></div>
+              <div className="contact-band-star-dot"></div>
+              <div className="contact-band-arch"></div>
+              <div className="contact-band-card">
+                <img
+                  src="https://i.postimg.cc/52LCYj7f/whitecard.webp"
+                  alt="card"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }
