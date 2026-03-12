@@ -84,7 +84,6 @@ function Hem() {
       </div>
 
       <section className="home-problems-section">
-        <div className="scroll-dot">↓</div>
         <div className="home-problems-container">
           <div className="section-eyebrow">ÄVEN</div>
           <h2 className="home-problems-title">
