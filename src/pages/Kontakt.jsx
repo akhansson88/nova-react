@@ -108,30 +108,33 @@ function Kontakt() {
 
           <div className="contact-form-script-wrap">
             <div className="contact-script-card">
-              <h2>Kontakta oss</h2>
+              <h2>Har Du Andra Frågor?</h2>
 
               <form className="contact-script-form" autoComplete="off" onSubmit={handleSubmit}>
                 <div className="contact-hp-field" aria-hidden="true">
                   <input ref={gotchaRef} type="text" name="_gotcha" tabIndex="-1" autoComplete="off" />
                 </div>
 
-                <div className="contact-script-group">
+                <div className="contact-script-group contact-script-group-hidden">
                   <label htmlFor="name">Namn och efternamn</label>
-                  <input type="text" id="name" name="name" required placeholder="Jan Kowalski" />
+                  <input type="text" id="name" name="name" placeholder="Jan Kowalski" />
                 </div>
 
                 <div className="contact-script-group">
-                  <label htmlFor="email">E-post</label>
-                  <input type="email" id="email" name="email" required placeholder="din@email.com" />
+                  <input type="email" id="email" name="email" required placeholder="Your email" />
+                </div>
+
+                <div className="contact-script-group contact-script-group-select">
+                  <input type="text" id="subject" name="subject" required placeholder="Subject" />
+                  <span className="contact-script-caret">▾</span>
                 </div>
 
                 <div className="contact-script-group">
-                  <label htmlFor="message">Meddelande</label>
-                  <textarea id="message" name="message" required placeholder="Skriv vad vi kan hjälpa dig med..." rows="6"></textarea>
+                  <textarea id="message" name="message" required placeholder="Message" rows="6"></textarea>
                 </div>
 
-                <button type="submit" className="contact-script-submit" disabled={submitting}>
-                  {submitting ? 'Skickar...' : 'Skicka meddelande'}
+                <button type="submit" className="cta contact-submit-btn" disabled={submitting}>
+                  {submitting ? 'SKICKAR...' : 'SKICKA'}
                 </button>
 
                 {success && (
