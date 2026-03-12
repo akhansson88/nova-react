@@ -2,7 +2,10 @@ import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import Hem from './pages/Hem.jsx';
 import OmOss from './pages/OmOss.jsx';
+import Reklam from './pages/Reklam.jsx';
+import Produkter from './pages/Produkter.jsx';
 
 /**
  * The main application component defines shared layout (header/footer) and
@@ -16,9 +19,11 @@ function App() {
       <Header />
       {/* Define application routes */}
       <Routes>
-        {/* Default route and /om-oss both render the OmOss page */}
-        <Route path="/" element={<OmOss />} />
+        {/* Home page on root, Om oss on its own route */}
+        <Route path="/" element={<Hem />} />
+        <Route path="/produkter" element={<Produkter />} />
         <Route path="/om-oss" element={<OmOss />} />
+        <Route path="/reklam" element={<Reklam />} />
         {/* Redirect any unknown route back to the OmOss page */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

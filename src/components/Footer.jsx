@@ -26,8 +26,9 @@ function Footer() {
             <div className="footer-links">
               <Link to="/">Hem</Link>
               <a href="#">Tjänster</a>
-              <a href="#">Produkter</a>
+              <Link to="/produkter">Produkter</Link>
               <Link to="/om-oss">Om oss</Link>
+              <Link to="/reklam">Reklam</Link>
               <a href="#">Blog</a>
             </div>
           </div>

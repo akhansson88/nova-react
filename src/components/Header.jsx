@@ -23,10 +23,10 @@ function Header() {
           {/* Navigation links */}
           <div className="menu">
             <Link to="/">Hem</Link>
-            {/* Placeholder links for pages not yet implemented */}
-            <a href="#">Produkter</a>
+            <Link to="/produkter">Produkter</Link>
             <a href="#">Referens</a>
             <Link to="/om-oss">Om oss</Link>
+            <Link to="/reklam">Reklam</Link>
             <a href="#">Blog</a>
           </div>
           {/* Contact button */}
