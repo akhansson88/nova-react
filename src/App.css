@@ -146,6 +146,7 @@ header {
 }
 
 .hero {
+  position: relative;
   display: grid;
   grid-template-columns: 1.02fr 0.98fr;
   gap: 40px;
