@@ -12,6 +12,7 @@ function OmOss() {
       {/* Container wraps the hero section */}
       <div className="container">
         <section className="hero">
+          <div className="scroll-dot">↓</div>
           {/* Left column with headline and call‑to‑action buttons */}
           <div>
             <div className="eyebrow">OM OSS</div>
@@ -145,6 +146,7 @@ function OmOss() {
 
       {/* Contact band section */}
       <section className="contact-band-section">
+        <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">

@@ -73,6 +73,7 @@ function Produkter() {
     <main className="page">
       <div className="container">
         <section className="hero hero-home">
+          <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">PRODUKTER</div>
             <h1 className="headline">
@@ -160,6 +161,7 @@ function Produkter() {
           </div>
 
           <section className="reklam-feature products-feature">
+            <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy">
               <h2>DEKALER</h2>
               <p className="reklam-feature-lead">
@@ -203,6 +205,7 @@ function Produkter() {
           </section>
 
           <section className="reklam-feature reklam-feature-alt products-feature-alt">
+            <div className="scroll-dot">↓</div>
             <div className="reklam-feature-art reklam-feature-art-alt">
               <div className="reklam-feature-bg reklam-feature-bg-alt"></div>
               <div className="reklam-feature-cloud reklam-feature-cloud-alt"></div>
@@ -258,6 +261,7 @@ function Produkter() {
           </section>
 
           <section className="reklam-feature reklam-feature-rollup products-feature-rollup">
+            <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy reklam-feature-copy-rollup">
               <h2>ROLL-UP</h2>
               <p className="reklam-feature-lead">
@@ -322,6 +326,7 @@ function Produkter() {
       </section>
 
       <section className="window-section products-window-section">
+        <div className="scroll-dot">↓</div>
         <div className="window-container">
           <div className="window-layout">
             <div className="window-art">
@@ -376,6 +381,7 @@ function Produkter() {
       </section>
 
       <section className="vehicle-section products-vehicle-section">
+        <div className="scroll-dot">↓</div>
         <div className="vehicle-container">
           <div className="vehicle-layout">
             <div className="vehicle-copy">
@@ -438,6 +444,7 @@ function Produkter() {
       </section>
 
       <section className="frost-section products-frost-section">
+        <div className="scroll-dot">↓</div>
         <div className="frost-container">
           <div className="frost-layout">
             <div className="frost-art">
@@ -500,6 +507,7 @@ function Produkter() {
       </section>
 
       <section className="contact-band-section reklam-contact-section">
+        <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">

@@ -23,6 +23,7 @@ function Galleri() {
     <main className="page">
       <div className="container">
         <section className="hero hero-home">
+          <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">GALLERI</div>
             <h1 className="headline">
@@ -123,6 +124,7 @@ function Galleri() {
       </section>
 
       <section className="gallery-cta-section">
+        <div className="scroll-dot">↓</div>
         <div className="gallery-cta-container">
           <p className="gallery-cta-copy">
             Varje projekt gör vi individuellt – vi väljer de bästa materialen
@@ -146,6 +148,7 @@ function Galleri() {
       </section>
 
       <section className="gallery-showcase-section">
+        <div className="scroll-dot">↓</div>
         <div className="gallery-showcase-container">
           <div className="gallery-showcase-header">
             <h2>Mina projekt</h2>
@@ -168,6 +171,7 @@ function Galleri() {
       </section>
 
       <section className="contact-band-section reklam-contact-section">
+        <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">

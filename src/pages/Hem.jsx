@@ -37,6 +37,7 @@ function Hem() {
     <main className="page">
       <div className="container">
         <section className="hero">
+          <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">HEM</div>
             <h1 className="headline">
@@ -84,6 +85,7 @@ function Hem() {
       </div>
 
       <section className="home-problems-section">
+        <div className="scroll-dot">↓</div>
         <div className="home-problems-container">
           <div className="section-eyebrow">ÄVEN</div>
           <h2 className="home-problems-title">
@@ -323,6 +325,7 @@ function Hem() {
       </section>
 
       <section className="home-value-section">
+        <div className="scroll-dot">↓</div>
         <div className="home-value-container">
           <div className="home-value-layout">
             <div className="home-value-copy">
@@ -608,6 +611,7 @@ function Hem() {
       </section>
 
       <section className="contact-band-section">
+        <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">

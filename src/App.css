@@ -2024,7 +2024,7 @@ header {
 .scroll-dot {
   position: absolute;
   left: 50%;
-  top: -15px;
+  bottom: -15px;
   transform: translateX(-50%);
   width: 30px;
   height: 30px;
