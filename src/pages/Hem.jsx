@@ -476,7 +476,7 @@ function Hem() {
       <section id="hem-tillvaxt" className="home-growth-section">
         <div className="scroll-dot">↓</div>
         <div className="home-growth-container">
-          <div className="home-growth-card">
+          <div className="home-growth-card home-growth-card-clean">
             <div className="home-growth-card-copy">
               <div className="section-eyebrow">KOM IGÅNG</div>
               <h2 className="home-growth-card-title">
@@ -488,10 +488,6 @@ function Hem() {
                 <button className="cta">FÅ OFFERT</button>
                 <button className="cta">RING OSS</button>
               </div>
-            </div>
-            <div className="home-growth-card-art">
-              <div className="home-growth-mini-card"></div>
-              <div className="home-growth-person"></div>
             </div>
           </div>
 
