@@ -1375,10 +1375,10 @@ header {
 .home-growth-fact-icon {
   width: 72px;
   height: auto;
-  max-height: 72px;
+  max-height: 68px;
   object-fit: contain;
   display: block;
-  margin: 0 0 18px;
+  margin: 0 0 22px;
 }
 
 .home-growth-fact p {
