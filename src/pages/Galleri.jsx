@@ -142,30 +142,20 @@ function Galleri() {
         </div>
       </section>
 
-      <section id="galleri-kontaktband" className="contact-band-section reklam-contact-section">
-        
-        <div className="contact-band-container">
-          <div className="contact-band">
-            <div className="contact-band-copy">
-              <h2>
-                Har du fler frågor<br />eller är nåt oklart?
-              </h2>
-              <button className="contact-band-btn">SKRIV</button>
-            </div>
-            <div className="contact-band-art">
-              <div className="contact-band-circle"></div>
-              <div className="contact-band-star-dot"></div>
-              <div className="contact-band-arch"></div>
-              <div className="contact-band-card">
-                <img
-                  src="https://i.postimg.cc/52LCYj7f/whitecard.webp"
-                  alt="card"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactBand
+        id="galleri-kontaktband"
+        sectionClassName="contact-band-section reklam-contact-section"
+        title={(
+          <>
+            Har du fler frågor
+            <br />
+            eller är nåt oklart?
+          </>
+        )}
+        buttonLabel="SKRIV"
+        imageSrc="/images/contact/kontaktkort-fragor-novatryck-stockholm.png"
+        imageAlt="Kontaktkort för frågor till Novatryck i Stockholm"
+      />
 
       {activeImage && (
         <div className="gallery-lightbox active" onClick={() => setActiveImage(null)}>
