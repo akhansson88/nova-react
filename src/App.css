@@ -3328,6 +3328,12 @@ header {
 .reklam-feature-art-dekaler-image {
   min-height: 100%;
   display: flex;
+  align-items: center;
+}
+
+.reklam-feature-art-dekaler-image .reklam-feature-full-image {
+  object-fit: contain;
+  object-position: center;
 }
 
 .reklam-feature-full-image {
