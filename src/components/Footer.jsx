@@ -49,7 +49,12 @@ function Footer() {
 
           {/* Social link(s) */}
           <div className="footer-social">
-            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Facebook">
+              <img
+                src="/images/social/facebook-ikon-novatryck-stockholm.svg"
+                alt="Facebook-ikon för Novatryck i Stockholm"
+              />
+            </a>
           </div>
         </div>
 

@@ -2585,15 +2585,17 @@ header {
 .footer-social a {
   width: 28px;
   height: 28px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: white;
   display: inline-flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  font-weight: 700;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-social a img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  object-fit: contain;
 }
 
 .footer-bottom {
