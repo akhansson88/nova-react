@@ -116,7 +116,6 @@ function Produkter() {
           <div className="reklam-grid">
             {products.map((product) => (
               <a key={product.title} href="#" className="reklam-card">
-                <span className="reklam-card-badge">✓</span>
                 <div className="reklam-icon-wrap">
                   <img src={product.image} alt={product.alt} loading="lazy" />
                 </div>
