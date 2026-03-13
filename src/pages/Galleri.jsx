@@ -32,7 +32,7 @@ function Galleri() {
               <br />
               Fönsterdekor, Bildekaler,
               <br />
-              Banderoller, Roll-up,
+              Banderoller, Roll-Up,
               <br />
               Bilfoliering
             </>
