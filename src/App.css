@@ -3681,11 +3681,6 @@ header {
 }
 
 @media (max-width: 980px) {
-  .reklam-feature {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
   .reklam-feature-art {
     min-height: 380px;
     max-width: 540px;
@@ -3696,6 +3691,29 @@ header {
   .reklam-feature-alt,
   .reklam-feature-rollup {
     margin-top: 72px;
+  }
+
+  .reklam-feature-image-alt {
+    left: 56px;
+    width: calc(100% - 90px);
+  }
+
+  .reklam-feature-art-rollup {
+    min-height: 420px;
+  }
+
+  .reklam-feature-image-rollup {
+    right: 18px;
+    width: calc(100% - 60px);
+    max-width: 390px;
+  }
+}
+
+@media (max-width: 780px) {
+  .reklam-feature {
+    margin-top: 64px;
+    grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   .reklam-feature-art-alt {
@@ -3721,27 +3739,6 @@ header {
   .products-vehicle-layout-image .vehicle-copy,
   .products-frost-layout-image .frost-copy {
     order: 2;
-  }
-
-  .reklam-feature-image-alt {
-    left: 56px;
-    width: calc(100% - 90px);
-  }
-
-  .reklam-feature-art-rollup {
-    min-height: 420px;
-  }
-
-  .reklam-feature-image-rollup {
-    right: 18px;
-    width: calc(100% - 60px);
-    max-width: 390px;
-  }
-}
-
-@media (max-width: 780px) {
-  .reklam-feature {
-    margin-top: 64px;
   }
 
   .reklam-feature-copy h2 {
@@ -3982,11 +3979,6 @@ header {
 }
 
 @media (max-width: 980px) {
-  .window-layout {
-    grid-template-columns: 1fr;
-    gap: 36px;
-  }
-
   .window-art {
     max-width: 520px;
     width: 100%;
@@ -3995,6 +3987,11 @@ header {
 }
 
 @media (max-width: 780px) {
+  .window-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
   .window-section {
     padding: 64px 0 76px;
   }
@@ -4204,11 +4201,6 @@ header {
 }
 
 @media (max-width: 980px) {
-  .vehicle-layout {
-    grid-template-columns: 1fr;
-    gap: 36px;
-  }
-
   .vehicle-art {
     max-width: 520px;
     width: 100%;
@@ -4217,6 +4209,11 @@ header {
 }
 
 @media (max-width: 780px) {
+  .vehicle-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
   .vehicle-section {
     padding: 64px 0 76px;
   }
@@ -4453,11 +4450,6 @@ header {
 }
 
 @media (max-width: 980px) {
-  .frost-layout {
-    grid-template-columns: 1fr;
-    gap: 36px;
-  }
-
   .frost-art {
     max-width: 520px;
     width: 100%;
@@ -4466,6 +4458,11 @@ header {
 }
 
 @media (max-width: 780px) {
+  .frost-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
   .frost-section {
     padding: 0 0 76px;
   }
