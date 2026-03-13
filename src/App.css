@@ -3699,12 +3699,28 @@ header {
   }
 
   .reklam-feature-art-alt {
-    order: 2;
+    order: 1;
     min-height: 400px;
   }
 
   .reklam-feature-copy-alt {
+    order: 2;
+  }
+
+  .products-feature-dekaler-image .reklam-feature-art-dekaler-image,
+  .products-feature-rollup-image .reklam-feature-art-rollup-image,
+  .products-window-layout-image .window-art-image-only,
+  .products-vehicle-layout-image .vehicle-art-image-only,
+  .products-frost-layout-image .frost-art-image-only {
     order: 1;
+  }
+
+  .products-feature-dekaler-image .reklam-feature-copy,
+  .products-feature-rollup-image .reklam-feature-copy-rollup,
+  .products-window-layout-image .window-copy,
+  .products-vehicle-layout-image .vehicle-copy,
+  .products-frost-layout-image .frost-copy {
+    order: 2;
   }
 
   .reklam-feature-image-alt {
