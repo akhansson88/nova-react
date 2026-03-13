@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import Hem from './pages/Hem.jsx';
@@ -10,9 +10,6 @@ import Kontakt from './pages/Kontakt.jsx';
 import AdminNova from './pages/AdminNova.jsx';
 
 function App() {
-  const location = useLocation();
-  const isAdminRoute = location.pathname === '/admin-nova' || location.pathname === '/admin-nova/';
-
   React.useEffect(() => {
     const redirectPath = sessionStorage.getItem('spa-redirect-path');
 
@@ -24,7 +21,7 @@ function App() {
 
   return (
     <>
-      {!isAdminRoute && <Header />}
+      <Header />
       <Routes>
         <Route path="/" element={<Hem />} />
         <Route path="/produkter" element={<Produkter />} />
@@ -35,7 +32,7 @@ function App() {
         <Route path="/admin-nova/" element={<AdminNova />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-      {!isAdminRoute && <Footer />}
+      <Footer />
     </>
   );
 }

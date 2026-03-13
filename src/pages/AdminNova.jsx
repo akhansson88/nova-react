@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from '../firebase.js';
 
@@ -124,23 +125,25 @@ function AdminNova() {
     <main className="admin-shell">
       <div className="admin-layout">
         <aside className="admin-sidebar">
-          <div>
-            <div className="section-eyebrow admin-sidebar-eyebrow">ADMIN NOVA</div>
-            <h1 className="admin-sidebar-title">Panel</h1>
-          </div>
+          <div className="admin-sidebar-top">
+            <div>
+              <div className="section-eyebrow admin-sidebar-eyebrow">ADMIN NOVA</div>
+              <h1 className="admin-sidebar-title">Panel</h1>
+            </div>
 
-          <nav className="admin-sidebar-nav" aria-label="Admin navigation">
-            {menuItems.map((item) => (
-              <button
-                key={item.key}
-                type="button"
-                className={`admin-sidebar-link${activeView === item.key ? ' is-active' : ''}`}
-                onClick={() => setActiveView(item.key)}
-              >
-                {item.label}
-              </button>
-            ))}
-          </nav>
+            <nav className="admin-sidebar-nav" aria-label="Admin navigation">
+              {menuItems.map((item) => (
+                <button
+                  key={item.key}
+                  type="button"
+                  className={`admin-sidebar-link${activeView === item.key ? ' is-active' : ''}`}
+                  onClick={() => setActiveView(item.key)}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </nav>
+          </div>
 
           <button type="button" className="admin-logout" onClick={handleLogout}>
             Logga ut
