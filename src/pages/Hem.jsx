@@ -63,8 +63,6 @@ function Hem() {
             </>
           )}
           note="MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!"
-          imageSrc="/images/hero/reklamtryck-foliering-novatryck-stockholm-hero.png"
-          imageAlt="Reklamtryck och foliering från Novatryck i Stockholm"
         />
       </div>
 

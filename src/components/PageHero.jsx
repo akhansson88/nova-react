@@ -9,8 +9,8 @@ function PageHero({
   primaryAction = 'FÅ OFFERT',
   secondaryAction = 'RING OSS',
   note,
-  imageSrc,
-  imageAlt,
+  imageSrc = '/images/hero/reklamtryck-foliering-novatryck-stockholm-hero.png',
+  imageAlt = 'Reklamtryck och foliering från Novatryck i Stockholm',
 }) {
   const eyebrowText = eyebrow ?? pageName;
 
