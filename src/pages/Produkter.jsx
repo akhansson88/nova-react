@@ -1,4 +1,5 @@
 import React from 'react';
+import PageHero from '../components/PageHero.jsx';
 
 const products = [
   {
@@ -37,52 +38,22 @@ function Produkter() {
   return (
     <main className="page">
       <div className="container">
-        <section id="produkter-hero" className="hero hero-home">
-          <div className="scroll-dot">↓</div>
-          <div>
-            <div className="eyebrow">PRODUKTER</div>
-            <h1 className="headline">
-              Tryckning Dekaler,<br />
-              Fönsterdekor, Bildekaler,<br />
-              Banderoller, Rollup,<br />
+        <PageHero
+          id="produkter-hero"
+          pageName="PRODUKTER"
+          title={(
+            <>
+              Tryckning, Dekaler,
+              <br />
+              Fönsterdekor, Bildekaler,
+              <br />
+              Banderoller, Roll-Up,
+              <br />
               Bilfoliering
-            </h1>
-
-            <div className="cta-row">
-              <button className="cta">FÅ OFFERT</button>
-              <button className="cta">RING OSS</button>
-            </div>
-
-            <div className="note">MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!</div>
-          </div>
-
-          <div className="art">
-            <div className="bg-card"></div>
-            <div className="cloud-scribble"></div>
-            <div
-              className="floating-card"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/HL2QVfJm/color-palette.webp')",
-              }}
-            ></div>
-            <div
-              className="main-image"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/TPVXmcGX/Chat-GPT-Image-Mar-6-2026-08-33-33-AM.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-            <div
-              className="portrait"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/pdZDpg9N/profile-picture.webp')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-          </div>
-        </section>
+            </>
+          )}
+          note="MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!"
+        />
       </div>
 
       <section id="produkter-oversikt" className="products-section">
