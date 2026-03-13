@@ -97,8 +97,6 @@ function Produkter() {
             />
           </div>
 
-          <div className="reklam-divider" />
-
           <div className="reklam-intro">
             <div className="section-eyebrow">VARFÖR DET ÄR VÄRT</div>
             <h2 className="reklam-title">
