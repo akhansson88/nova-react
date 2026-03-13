@@ -2602,10 +2602,30 @@ header {
   border-top: 1px solid #e6cbbf;
   padding: 16px 0 0;
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto auto auto;
   gap: 24px;
   color: #7d6558;
   font-size: 12px;
+  align-items: center;
+}
+
+.footer-admin-login {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #e6cbbf;
+  color: #7d6558;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  justify-self: end;
+}
+
+.footer-admin-login svg {
+  width: 14px;
+  height: 14px;
+  display: block;
 }
 
 @media (max-width: 900px) {
