@@ -63,7 +63,7 @@ function Footer() {
           <div>Copyright © 2022 Novatryck. All Rights Reserved.</div>
           <div>Privacy Policy</div>
           <div>Terms of Use</div>
-          <Link to="/admin-nova" className="footer-admin-login" aria-label="Admin login">
+          <Link to="/admin-nova/" className="footer-admin-login" aria-label="Admin login">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="9" cy="10" r="3.25" fill="none" stroke="currentColor" strokeWidth="1.8" />
               <path d="M11.5 12.5 19 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />

@@ -37,6 +37,7 @@ function App() {
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/om-oss" element={<OmOss />} />
         <Route path="/admin-nova" element={<AdminNova />} />
+        <Route path="/admin-nova/" element={<AdminNova />} />
         {/* Redirect any unknown route back to the OmOss page */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
