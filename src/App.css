@@ -308,7 +308,7 @@ header {
 
 .home-questions-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 350px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 72px;
   align-items: start;
 }
