@@ -676,7 +676,7 @@ function Hem() {
       </section>
 
       <section id="hem-kontaktband" className="contact-band-section">
-        <div className="scroll-dot">↓</div>
+        
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">

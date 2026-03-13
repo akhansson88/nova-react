@@ -506,7 +506,7 @@ function Reklam() {
       </section>
 
       <section id="reklam-kontaktband" className="contact-band-section reklam-contact-section">
-        <div className="scroll-dot">↓</div>
+        
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">

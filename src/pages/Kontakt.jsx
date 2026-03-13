@@ -151,7 +151,7 @@ function Kontakt() {
       </section>
 
       <section id="kontakt-karta" className="contact-map-section">
-        <div className="scroll-dot">↓</div>
+        
         <div className="contact-map-wrap">
           <iframe
             className="contact-map-frame"

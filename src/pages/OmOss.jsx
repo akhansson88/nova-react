@@ -146,7 +146,7 @@ function OmOss() {
 
       {/* Contact band section */}
       <section id="om-oss-kontaktband" className="contact-band-section">
-        <div className="scroll-dot">↓</div>
+        
         <div className="contact-band-container">
           <div className="contact-band">
             <div className="contact-band-copy">
