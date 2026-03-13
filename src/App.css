@@ -3987,8 +3987,9 @@ header {
 }
 
 @media (max-width: 780px) {
-  .window-layout {
-    grid-template-columns: 1fr;
+  .window-layout,
+  .products-window-layout-image {
+    grid-template-columns: 1fr !important;
     gap: 36px;
   }
 
@@ -4209,8 +4210,9 @@ header {
 }
 
 @media (max-width: 780px) {
-  .vehicle-layout {
-    grid-template-columns: 1fr;
+  .vehicle-layout,
+  .products-vehicle-layout-image {
+    grid-template-columns: 1fr !important;
     gap: 36px;
   }
 
@@ -4458,8 +4460,9 @@ header {
 }
 
 @media (max-width: 780px) {
-  .frost-layout {
-    grid-template-columns: 1fr;
+  .frost-layout,
+  .products-frost-layout-image {
+    grid-template-columns: 1fr !important;
     gap: 36px;
   }
 
