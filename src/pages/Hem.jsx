@@ -36,7 +36,7 @@ function Hem() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero">
+        <section className="hero hero-home-clean">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">HEM</div>
@@ -53,33 +53,6 @@ function Hem() {
             </div>
 
             <div className="note">MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!</div>
-          </div>
-
-          <div className="art">
-            <div className="bg-card"></div>
-            <div className="cloud-scribble"></div>
-            <div
-              className="floating-card"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/HL2QVfJm/color-palette.webp')",
-              }}
-            ></div>
-            <div
-              className="main-image"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/TPVXmcGX/Chat-GPT-Image-Mar-6-2026-08-33-33-AM.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-            <div
-              className="portrait"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/pdZDpg9N/profile-picture.webp')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
           </div>
         </section>
       </div>

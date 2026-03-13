@@ -159,6 +159,11 @@ header {
   padding-bottom: 140px;
 }
 
+.hero-home-clean {
+  grid-template-columns: 1fr;
+  max-width: 760px;
+}
+
 .home-problems-section {
   position: relative;
   background: #f5f3f1;
