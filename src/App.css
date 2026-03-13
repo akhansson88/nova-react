@@ -3314,6 +3314,10 @@ header {
   align-items: center;
 }
 
+.products-feature {
+  grid-template-columns: 1fr;
+}
+
 .reklam-feature-copy h2 {
   margin: 0 0 20px;
   font-size: 42px;

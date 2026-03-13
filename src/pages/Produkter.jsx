@@ -195,12 +195,6 @@ function Produkter() {
               </div>
             </div>
 
-            <div className="reklam-feature-art">
-              <div className="reklam-feature-bg"></div>
-              <div className="reklam-feature-cloud"></div>
-              <div className="reklam-feature-palette"></div>
-              <div className="reklam-feature-image"></div>
-            </div>
           </section>
 
           <section className="reklam-feature reklam-feature-alt products-feature-alt">
