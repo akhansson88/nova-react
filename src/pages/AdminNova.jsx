@@ -79,6 +79,7 @@ function AdminNova() {
             <div className="admin-login-card">
               <div className="section-eyebrow">ADMIN NOVA</div>
               <h1 className="admin-login-title">Logga in</h1>
+              <Link to="/" className="admin-login-back">← Tillbaka till startsidan</Link>
               <p className="admin-login-intro">
                 Ange din e-postadress och ditt lösenord för att komma vidare till adminpanelen.
               </p>
