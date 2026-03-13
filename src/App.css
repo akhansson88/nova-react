@@ -327,13 +327,11 @@ header {
 }
 
 .home-questions-arrow {
-  margin-top: 22px;
-  margin-left: 290px;
-  color: #edb7a7;
-  font-size: 68px;
-  line-height: 1;
-  transform: rotate(18deg);
-  width: fit-content;
+  margin-top: 84px;
+  margin-left: 320px;
+  width: 108px;
+  height: auto;
+  display: block;
 }
 
 .home-questions-panel {

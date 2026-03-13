@@ -150,7 +150,12 @@ function Hem() {
                 <br />
                 tryckkvalitet efter tidigare erfarenheter?
               </p>
-              <div className="home-questions-arrow">→</div>
+              <img
+                className="home-questions-arrow"
+                src="/images/arrows/pil-billigt-offert-novatryck-stockholm.svg"
+                alt="Pil mot innehåll om reklamtryck i Stockholm"
+                loading="lazy"
+              />
             </div>
 
             <div className="home-questions-panel">
