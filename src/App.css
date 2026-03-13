@@ -223,8 +223,8 @@ header {
 }
 
 .home-problem-icon {
-  width: 34px;
-  height: 34px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   display: block;
   margin: 0 0 16px 18px;
@@ -371,8 +371,8 @@ header {
 }
 
 .home-question-icon {
-  width: 28px;
-  height: 28px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   display: block;
   flex: 0 0 auto;
@@ -1373,9 +1373,8 @@ header {
 }
 
 .home-growth-fact-icon {
-  width: 72px;
-  height: auto;
-  max-height: 68px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
   display: block;
   margin: 0 0 22px;
