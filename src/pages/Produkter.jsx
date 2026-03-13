@@ -3,32 +3,32 @@ import React from 'react';
 const products = [
   {
     title: 'DEKALER',
-    image: '/images/product-icons/dekaler-ikon-novatryck-stockholm.png',
+    image: '/images/product-icons/dekaler-ikon-novatryck-stockholm.svg',
     alt: 'Ikon för dekaler från Novatryck i Stockholm',
   },
   {
     title: 'BANDEROLLER',
-    image: '/images/product-icons/banderoller-ikon-novatryck-stockholm.png',
+    image: '/images/product-icons/banderoller-ikon-novatryck-stockholm.svg',
     alt: 'Ikon för banderoller från Novatryck i Stockholm',
   },
   {
     title: 'ROLL-UPS',
-    image: '/images/product-icons/rollup-ikon-novatryck-stockholm.png',
+    image: '/images/product-icons/rollup-ikon-novatryck-stockholm.svg',
     alt: 'Ikon för roll-ups från Novatryck i Stockholm',
   },
   {
     title: 'FÖNSTERDEKOR',
-    image: '/images/product-icons/fonsterdekor-ikon-novatryck-stockholm.png',
+    image: '/images/product-icons/fonsterdekor-ikon-novatryck-stockholm.svg',
     alt: 'Ikon för fönsterdekor från Novatryck i Stockholm',
   },
   {
     title: 'BILDEKOR',
-    image: '/images/product-icons/bildekor-ikon-novatryck-stockholm.png',
+    image: '/images/product-icons/bildekor-ikon-novatryck-stockholm.svg',
     alt: 'Ikon för bildekor från Novatryck i Stockholm',
   },
   {
     title: 'FROSTFOLIE',
-    image: '/images/product-icons/frostfolie-ikon-novatryck-stockholm.png',
+    image: '/images/product-icons/frostfolie-ikon-novatryck-stockholm.svg',
     alt: 'Ikon för frostfolie från Novatryck i Stockholm',
   },
 ];
