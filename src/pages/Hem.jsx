@@ -161,7 +161,6 @@ function Hem() {
             <div className="home-questions-panel">
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-check">✓</span>
                   <span className="home-question-number">01</span>
                 </div>
                 <p>Vill du ha högkvalitativa <strong>reklamtryck</strong> i kort tid?</p>
@@ -169,7 +168,6 @@ function Hem() {
 
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-check">✓</span>
                   <span className="home-question-number">02</span>
                 </div>
                 <p>Letar du efter ett tryckeri som erbjuder personliga <strong>banderoller</strong> i specialstorlekar?</p>
@@ -177,7 +175,6 @@ function Hem() {
 
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-check">✓</span>
                   <span className="home-question-number">03</span>
                 </div>
                 <p>Behöver du hållbara <strong>reklamfolier</strong> som tål svåra väderförhållanden?</p>
@@ -185,7 +182,6 @@ function Hem() {
 
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-check">✓</span>
                   <span className="home-question-number">04</span>
                 </div>
                 <p>Vill du ha exakta prisuppgifter för <strong>tryck</strong> utan dolda kostnader?</p>
