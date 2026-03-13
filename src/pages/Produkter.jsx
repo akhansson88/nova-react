@@ -1,7 +1,5 @@
 import React from 'react';
 
-const partnerLogos = ['WaveCore', 'SPLIT', 'LB DEKOR', 'sanit', 'Wiklborg & Partners'];
-
 const products = [
   { title: 'DEKALER', icon: 'frame' },
   { title: 'BANDEROLLER', icon: 'banner' },
@@ -123,12 +121,13 @@ function Produkter() {
       <section className="products-section">
         <div className="scroll-dot">↓</div>
         <div className="reklam-container">
-          <div className="reklam-logo-row">
-            {partnerLogos.map((logo) => (
-              <div key={logo} className="reklam-logo-item">
-                {logo}
-              </div>
-            ))}
+          <div className="reklam-logo-row reklam-logo-row-image">
+            <img
+              className="reklam-logo-strip"
+              src="/images/brands/kunder-novatryck-stockholm-referenslogos.png"
+              alt="Kundlogotyper för Novatryck i Stockholm"
+              loading="lazy"
+            />
           </div>
 
           <div className="reklam-divider" />

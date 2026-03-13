@@ -3151,6 +3151,18 @@ header {
   opacity: 0.22;
 }
 
+.reklam-logo-row-image {
+  grid-template-columns: 1fr;
+  opacity: 1;
+}
+
+.reklam-logo-strip {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .reklam-logo-item {
   text-align: center;
   color: #8f8b87;
