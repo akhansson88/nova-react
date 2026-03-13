@@ -504,18 +504,33 @@ function Hem() {
               <h3>SE NÅGRA FAKTA</h3>
 
               <div className="home-growth-fact">
-                <span className="home-growth-fact-icon">💲</span>
-                <p>Den exceptionella tryckkvaliteten garanterar en långvarig reklameffekt till ett lågt pris.</p>
+                <img
+                  className="home-growth-fact-icon"
+                  src="/images/facts/lagt-pris-ikon-novatryck.svg"
+                  alt="Ikon för lågt pris på tryck från Novatryck"
+                  loading="lazy"
+                />
+                <p>Den exceptionella tryckkvaliteten garanterar en långvarig reklameffekt till <strong>ett lågt pris.</strong></p>
               </div>
 
               <div className="home-growth-fact">
-                <span className="home-growth-fact-icon">✅</span>
-                <p>Professionella utskrifter skapar förtroende för ditt varumärke.</p>
+                <img
+                  className="home-growth-fact-icon"
+                  src="/images/facts/fortroende-ikon-novatryck.svg"
+                  alt="Ikon för professionellt tryck som skapar förtroende"
+                  loading="lazy"
+                />
+                <p>Professionella utskrifter <strong>skapar förtroende</strong> för ditt varumärke.</p>
               </div>
 
               <div className="home-growth-fact">
-                <span className="home-growth-fact-icon">⏰</span>
-                <p>Snabb utskrift sparar tid och påskyndar dina projekt.</p>
+                <img
+                  className="home-growth-fact-icon"
+                  src="/images/facts/snabb-utskrift-ikon-novatryck.svg"
+                  alt="Ikon för snabb utskrift från Novatryck"
+                  loading="lazy"
+                />
+                <p>Snabb utskrift <strong>sparar</strong> tid och påskyndar dina projekt.</p>
               </div>
             </div>
           </div>

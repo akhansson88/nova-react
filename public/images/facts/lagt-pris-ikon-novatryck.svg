@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.031" height="54.382" viewBox="0 0 51.031 54.382">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #edeff1;
+      }
+
+      .cls-2 {
+        fill: #ef6d58;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_38" data-name="Rectangle 38" class="cls-1" width="51.031" height="49.972"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-2" width="18" height="17" transform="translate(0 -0.098)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_207" data-name="Group 207" transform="translate(-762 -7370.618)">
+    <g id="Group_106" data-name="Group 106" transform="translate(762 7370.618)">
+      <g id="Group_105" data-name="Group 105" class="cls-3">
+        <path id="Path_94" data-name="Path 94" class="cls-1" d="M51.031,39.709l-9.3,8.76a5.572,5.572,0,0,1-7.636-.021L24.883,39.6l4.6-4.416,5.192,4.989V0h6.5V40.248l5.309-5,4.551,4.462Zm-22.2-15.5a4.583,4.583,0,0,0-3.786-4.437l-6.05-1.164a1.191,1.191,0,0,1,.243-2.365h4.609A1.513,1.513,0,0,1,25.3,17.282h3.51a4.916,4.916,0,0,0-4.964-4.373h-.433v-2.5H19.944v2.5h-.709a4.625,4.625,0,0,0-4.709,4.525,4.583,4.583,0,0,0,3.786,4.437l6.048,1.164a1.192,1.192,0,0,1-.243,2.367H19.511a1.513,1.513,0,0,1-1.454-1.041h-3.51a4.916,4.916,0,0,0,4.964,4.373h.433v2.5h3.467v-2.5h.706a4.626,4.626,0,0,0,4.711-4.525ZM6.5,20.822c0-8.037,6.8-14.575,15.168-14.575a15.5,15.5,0,0,1,8.668,2.632V1.751A22.265,22.265,0,0,0,21.669,0C9.721,0,0,9.341,0,20.822S9.721,41.643,21.669,41.643V35.4C13.3,35.4,6.5,28.859,6.5,20.822" transform="translate(0 0)"/>
+      </g>
+    </g>
+    <g id="Group_100" data-name="Group 100" transform="translate(762 7408.098)">
+      <g id="Group_37" data-name="Group 37" class="cls-4" transform="translate(0 0)">
+        <path id="Path_79" data-name="Path 79" class="cls-2" d="M8.958,0A8.8,8.8,0,0,0,0,8.607a8.8,8.8,0,0,0,8.958,8.607,8.8,8.8,0,0,0,8.958-8.607A8.8,8.8,0,0,0,8.958,0M8.89,11.06a1.511,1.511,0,0,1-1.05.416,1.526,1.526,0,0,1-1.057-.42L4.706,9.122l1.04-1.031L7.83,10.033l4.336-4.089,1.048,1.022L8.89,11.06Z" transform="translate(0 0.082)"/>
+      </g>
+    </g>
+  </g>
+</svg>
