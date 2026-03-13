@@ -88,6 +88,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  align-self: center;
   gap: 10px;
   font-size: 22px;
   font-weight: 700;
@@ -126,6 +127,7 @@ header {
 .menu {
   display: flex;
   align-items: center;
+  align-self: center;
   gap: 52px;
   margin-left: auto;
   margin-right: 12px;
@@ -1953,6 +1955,7 @@ header {
   min-width: 154px;
   display: inline-flex;
   align-items: center;
+  align-self: center;
   justify-content: center;
   background: var(--coral);
   color: white;
@@ -1964,6 +1967,7 @@ header {
   cursor: pointer;
   text-transform: uppercase;
   text-decoration: none;
+  line-height: 1;
 }
 
 .note {
