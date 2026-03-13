@@ -477,7 +477,14 @@ function Hem() {
         <div className="scroll-dot">↓</div>
         <div className="home-growth-container">
           <div className="home-growth-card home-growth-card-clean">
-            <div className="home-growth-card-copy">
+            <img
+              className="home-growth-card-bg-image"
+              src="/images/cards/tillvaxtkort-foretag-novatryck-stockholm.png"
+              alt="Tillväxtkort för företag från Novatryck i Stockholm"
+              loading="lazy"
+            />
+            <div className="home-growth-card-overlay"></div>
+            <div className="home-growth-card-copy home-growth-card-copy-overlay">
               <div className="section-eyebrow">KOM IGÅNG</div>
               <h2 className="home-growth-card-title">
                 Vi Hjälper Företag

@@ -1242,9 +1242,43 @@ header {
 .home-growth-card-clean {
   grid-template-columns: 1fr;
   padding: 34px;
+  position: relative;
+  min-height: 389px;
+  overflow: hidden;
+}
+
+.home-growth-card-bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.home-growth-card-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(22, 17, 14, 0.68) 0%, rgba(22, 17, 14, 0.42) 38%, rgba(22, 17, 14, 0.12) 100%);
+}
+
+.home-growth-card-copy-overlay {
+  position: relative;
+  z-index: 2;
+  max-width: 430px;
+}
+
+.home-growth-card-copy-overlay .section-eyebrow,
+.home-growth-card-copy-overlay .home-growth-card-title {
+  color: #fff8f3;
 }
 
 .home-growth-card-copy {
+  padding: 18px 0 34px 30px;
+}
+
+.home-growth-card-copy-overlay {
   padding: 18px 0 34px 30px;
 }
 
