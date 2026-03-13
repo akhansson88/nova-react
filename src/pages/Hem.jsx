@@ -36,7 +36,7 @@ function Hem() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero hero-home-clean">
+        <section className="hero hero-home-with-image">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">HEM</div>
@@ -53,6 +53,14 @@ function Hem() {
             </div>
 
             <div className="note">MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!</div>
+          </div>
+
+          <div className="hero-home-image-wrap">
+            <img
+              className="hero-home-image"
+              src="/images/hero/reklamtryck-foliering-novatryck-stockholm-hero.png"
+              alt="Reklamtryck och foliering från Novatryck i Stockholm"
+            />
           </div>
         </section>
       </div>

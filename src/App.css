@@ -159,9 +159,23 @@ header {
   padding-bottom: 140px;
 }
 
-.hero-home-clean {
-  grid-template-columns: 1fr;
-  max-width: 760px;
+.hero-home-with-image {
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 460px);
+  align-items: center;
+}
+
+.hero-home-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-home-image {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .home-problems-section {
@@ -2054,6 +2068,9 @@ header {
   .art {
     min-height: 560px;
     max-width: 560px;
+  }
+  .hero-home-with-image {
+    grid-template-columns: 1fr;
   }
 }
 
