@@ -41,10 +41,9 @@ function Hem() {
           <div>
             <div className="eyebrow">HEM</div>
             <h1 className="headline">
-              Tryckning Dekaler,<br />
-              Fönsterdekor, Bildekaler,<br />
-              Banderoller, Rollup,<br />
-              Bilfoliering
+              Behöver du tryck,
+              <br />
+              men vet inte vilket?
             </h1>
 
             <p className="hero-home-intro">
