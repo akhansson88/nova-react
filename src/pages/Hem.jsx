@@ -494,7 +494,7 @@ function Hem() {
             <div className="home-growth-intro">
               <div className="section-eyebrow home-growth-eyebrow">KANSKE VET DU INTE</div>
               <h2 className="home-growth-title">
-                Är Det Lönst
+                Är Det Lönsamt
                 <br />
                 För Dig?
               </h2>
