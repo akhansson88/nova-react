@@ -2364,7 +2364,7 @@ header {
   border-radius: 4px;
   min-height: 306px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   padding: 42px 58px;
   overflow: hidden;

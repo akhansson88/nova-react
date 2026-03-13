@@ -635,17 +635,6 @@ function Hem() {
               </h2>
               <button className="contact-band-btn">SKRIV</button>
             </div>
-            <div className="contact-band-art">
-              <div className="contact-band-circle"></div>
-              <div className="contact-band-star-dot"></div>
-              <div className="contact-band-arch"></div>
-              <div className="contact-band-card">
-                <img
-                  src="https://i.postimg.cc/52LCYj7f/whitecard.webp"
-                  alt="card"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </section>
