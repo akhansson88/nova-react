@@ -1139,11 +1139,9 @@ header {
 .home-cheap-arrow {
   margin-top: 84px;
   margin-left: 280px;
-  color: #edb7a7;
-  font-size: 72px;
-  line-height: 1;
-  transform: rotate(10deg);
-  width: fit-content;
+  width: 72px;
+  height: auto;
+  display: block;
 }
 
 .home-cheap-list {

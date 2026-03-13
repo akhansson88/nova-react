@@ -436,7 +436,12 @@ function Hem() {
                 <button className="cta">RING OSS</button>
               </div>
 
-              <div className="home-cheap-arrow">↘</div>
+              <img
+                className="home-cheap-arrow"
+                src="/images/arrows/pil-billigt-offert-novatryck-stockholm.svg"
+                alt="Pil mot offertknappar för Novatryck i Stockholm"
+                loading="lazy"
+              />
             </div>
 
             <div className="home-cheap-list">
