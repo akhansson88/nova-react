@@ -47,6 +47,18 @@ function Hem() {
               Bilfoliering
             </h1>
 
+            <p className="hero-home-intro">
+              Vi erbjuder dig reklamtryck som är
+              <br />
+              anpassade efter DINA behov:
+            </p>
+
+            <ul className="hero-home-list">
+              <li>TRYCKTA folier i alla format</li>
+              <li>Banderoller och reklam rollups</li>
+              <li>Utskurna bokstäver i alla färger</li>
+            </ul>
+
             <div className="cta-row">
               <button className="cta">FÅ OFFERT</button>
               <button className="cta">RING OSS</button>

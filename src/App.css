@@ -1910,6 +1910,38 @@ header {
   font-weight: 800;
 }
 
+.hero-home-intro {
+  margin: 28px 0 0;
+  color: #d6dfeb;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.hero-home-list {
+  list-style: none;
+  padding: 0;
+  margin: 22px 0 0;
+}
+
+.hero-home-list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  color: #d6dfeb;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hero-home-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--coral);
+  font-size: 22px;
+  line-height: 1;
+}
+
 .cta-row {
   display: flex;
   gap: 18px;
@@ -2112,6 +2144,13 @@ header {
 @media (max-width: 780px) {
   .nav {
     flex-wrap: wrap;
+  }
+  .hero-home-intro,
+  .hero-home-list li {
+    font-size: 16px;
+  }
+  .hero-home-intro br {
+    display: none;
   }
   .menu {
     order: 3;
