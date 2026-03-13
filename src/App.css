@@ -3477,6 +3477,16 @@ header {
   grid-template-columns: 1fr;
 }
 
+.products-feature-banderoller-image {
+  grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+  align-items: stretch;
+}
+
+.reklam-feature-art-banderoller-image {
+  min-height: 100%;
+  display: flex;
+}
+
 .reklam-feature-copy-alt h2 {
   margin-bottom: 24px;
 }

@@ -205,8 +205,17 @@ function Produkter() {
             </div>
           </section>
 
-          <section className="reklam-feature reklam-feature-alt products-feature-alt">
+          <section className="reklam-feature reklam-feature-alt products-feature-alt products-feature-banderoller-image">
             <div className="scroll-dot">↓</div>
+            <div className="reklam-feature-art reklam-feature-art-banderoller-image">
+              <img
+                className="reklam-feature-full-image"
+                src="/images/products/banderoller-reklamtryck-novatryck-stockholm.png"
+                alt="Banderoller och reklamtryck från Novatryck i Stockholm"
+                loading="lazy"
+              />
+            </div>
+
             <div className="reklam-feature-copy reklam-feature-copy-alt">
               <h2>BANDEROLLER</h2>
               <p className="reklam-feature-lead">
