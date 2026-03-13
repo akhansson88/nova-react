@@ -635,6 +635,14 @@ function Hem() {
               </h2>
               <button className="contact-band-btn">SKRIV</button>
             </div>
+            <div className="contact-band-art contact-band-art-image-only">
+              <img
+                className="contact-band-main-image"
+                src="/images/contact/kontaktkort-fragor-novatryck-stockholm.png"
+                alt="Kontaktkort för frågor till Novatryck i Stockholm"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </section>
