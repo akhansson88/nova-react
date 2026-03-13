@@ -3726,6 +3726,22 @@ header {
   grid-template-columns: 1fr;
 }
 
+.products-window-layout-image {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.92fr) !important;
+  align-items: stretch;
+}
+
+.window-art-image-only {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.window-art-image-only .reklam-feature-full-image {
+  object-fit: contain;
+  object-position: center;
+}
+
 .window-art {
   position: relative;
   min-height: 420px;

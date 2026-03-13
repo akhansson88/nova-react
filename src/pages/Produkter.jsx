@@ -332,7 +332,16 @@ function Produkter() {
       <section className="window-section products-window-section">
         <div className="scroll-dot">↓</div>
         <div className="window-container">
-          <div className="window-layout">
+          <div className="window-layout products-window-layout-image">
+            <div className="window-art window-art-image-only">
+              <img
+                className="reklam-feature-full-image"
+                src="/images/products/fonsterdekor-skyltfonster-novatryck-stockholm.png"
+                alt="Fönsterdekor och skyltfönster från Novatryck i Stockholm"
+                loading="lazy"
+              />
+            </div>
+
             <div className="window-copy">
               <h2>FÖNSTERDEKOR</h2>
               <p className="window-lead">
