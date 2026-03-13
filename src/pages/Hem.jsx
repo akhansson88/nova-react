@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import PageHero from '../components/PageHero.jsx';
+import ContactBand from '../components/ContactBand.jsx';
 
 function Hem() {
   const [mouseMoved, setMouseMoved] = useState(false);
@@ -665,29 +666,19 @@ function Hem() {
         </div>
       </section>
 
-      <section id="hem-kontaktband" className="contact-band-section">
-        
-        <div className="contact-band-container">
-          <div className="contact-band">
-            <div className="contact-band-copy">
-              <h2>
-                Har du fler frågor
-                <br />
-                eller är nåt oklart?
-              </h2>
-              <button className="contact-band-btn">SKRIV</button>
-            </div>
-            <div className="contact-band-art contact-band-art-image-only">
-              <img
-                className="contact-band-main-image"
-                src="/images/contact/kontaktkort-fragor-novatryck-stockholm.png"
-                alt="Kontaktkort för frågor till Novatryck i Stockholm"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <ContactBand
+        id="hem-kontaktband"
+        title={(
+          <>
+            Har du fler frågor
+            <br />
+            eller är nåt oklart?
+          </>
+        )}
+        buttonLabel="SKRIV"
+        imageSrc="/images/contact/kontaktkort-fragor-novatryck-stockholm.png"
+        imageAlt="Kontaktkort för frågor till Novatryck i Stockholm"
+      />
 
     </main>
   );
