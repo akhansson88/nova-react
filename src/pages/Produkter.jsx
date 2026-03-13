@@ -159,7 +159,7 @@ function Produkter() {
             ))}
           </div>
 
-          <section className="reklam-feature products-feature">
+          <section className="reklam-feature products-feature products-feature-dekaler-image">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy">
               <h2>DEKALER</h2>
@@ -195,6 +195,14 @@ function Produkter() {
               </div>
             </div>
 
+            <div className="reklam-feature-art reklam-feature-art-dekaler-image">
+              <img
+                className="reklam-feature-full-image"
+                src="/images/products/dekaler-klistermarken-novatryck-stockholm.png"
+                alt="Dekaler och klistermärken från Novatryck i Stockholm"
+                loading="lazy"
+              />
+            </div>
           </section>
 
           <section className="reklam-feature reklam-feature-alt products-feature-alt">
