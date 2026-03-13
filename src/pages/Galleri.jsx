@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import PageHero from '../components/PageHero.jsx';
+import ContactBand from '../components/ContactBand.jsx';
 
 const galleryImages = [
   { src: 'https://images.unsplash.com/photo-1605721911519-3d28c370184a?w=1200', alt: 'Projektbild 1' },
