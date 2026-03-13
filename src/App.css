@@ -3722,6 +3722,10 @@ header {
   align-items: center;
 }
 
+.products-window-section .window-layout {
+  grid-template-columns: 1fr;
+}
+
 .window-art {
   position: relative;
   min-height: 420px;

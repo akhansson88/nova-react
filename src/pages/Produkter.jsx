@@ -333,14 +333,6 @@ function Produkter() {
         <div className="scroll-dot">↓</div>
         <div className="window-container">
           <div className="window-layout">
-            <div className="window-art">
-              <div className="window-bg"></div>
-              <div className="window-cloud"></div>
-              <div className="window-card"></div>
-              <div className="window-image"></div>
-              <div className="window-arrow"></div>
-            </div>
-
             <div className="window-copy">
               <h2>FÖNSTERDEKOR</h2>
               <p className="window-lead">
