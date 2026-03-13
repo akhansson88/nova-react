@@ -65,7 +65,10 @@ function Footer() {
           <div>Terms of Use</div>
           <a href="#" className="footer-admin-login" aria-label="Admin login">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M14.5 3a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9Zm0 2a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM4 12.5h7.2l1.3 1.3v1.7h-1.7V17H9.1v-1.5H7.4V17H5.7v-2.2L4 13.1v-.6Z" fill="currentColor"/>
+              <circle cx="9" cy="10" r="3.25" fill="none" stroke="currentColor" strokeWidth="1.8" />
+              <path d="M11.5 12.5 19 20" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+              <path d="M15.8 16.3h2.1v2.1" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+              <path d="M13.9 14.4h2.1v2.1" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </a>
         </div>
