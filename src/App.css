@@ -223,20 +223,11 @@ header {
 }
 
 .home-problem-icon {
-  position: absolute;
-  left: 16px;
-  top: 24px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 8px 18px rgba(241, 112, 90, 0.18);
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
+  margin: 0 0 16px 18px;
 }
 
 .home-problem-card h3 {

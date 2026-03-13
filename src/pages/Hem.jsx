@@ -84,7 +84,12 @@ function Hem() {
 
           <div className="home-problems-grid">
             <div className="home-problem-card">
-              <div className="home-problem-icon">✖</div>
+              <img
+                className="home-problem-icon"
+                src="/images/problem-icons/storformatsfolie-hallbarhet-ikon.svg"
+                alt="Ikon för hållbar storformatsfolie från Novatryck"
+                loading="lazy"
+              />
               <h3>Är storformatsfolien verkligen hållbar?</h3>
               <p>
                 Tidigare har filmen snabbt blivit repig
@@ -96,7 +101,12 @@ function Hem() {
             </div>
 
             <div className="home-problem-card">
-              <div className="home-problem-icon">✖</div>
+              <img
+                className="home-problem-icon"
+                src="/images/problem-icons/trycksaker-leverans-i-tid-ikon.svg"
+                alt="Ikon för trycksaker med leverans i tid från Novatryck"
+                loading="lazy"
+              />
               <h3>Kommer trycksakerna att levereras i tid?</h3>
               <p>
                 Beställningen kom en vecka för sent,
@@ -106,7 +116,12 @@ function Hem() {
             </div>
 
             <div className="home-problem-card">
-              <div className="home-problem-icon">✖</div>
+              <img
+                className="home-problem-icon"
+                src="/images/problem-icons/banderoller-svenskt-klimat-ikon.svg"
+                alt="Ikon för banderoller som tål svenskt klimat"
+                loading="lazy"
+              />
               <h3>Tål era banderoller det svenska klimatet?</h3>
               <p>
                 Tidigare banderoller förstördes snabbt av
@@ -116,7 +131,12 @@ function Hem() {
             </div>
 
             <div className="home-problem-card">
-              <div className="home-problem-icon">✖</div>
+              <img
+                className="home-problem-icon"
+                src="/images/problem-icons/rollup-pris-ikon.svg"
+                alt="Ikon för rollup med tydligt pris från Novatryck"
+                loading="lazy"
+              />
               <h3>Vad kostar en rollup utan att priset drar iväg?</h3>
               <p>
                 Du har redan betalat för mycket för
