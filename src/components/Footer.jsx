@@ -15,8 +15,8 @@ function Footer() {
           {/* Logo linking back to the home/om-oss page */}
           <Link to="/" className="footer-logo">
             <img
-              src="https://i.postimg.cc/1tW6mw8K/nova-logo-(1).webp"
-              alt="Nova logo"
+              src="/images/logos/novatryck-logotyp-stockholm-header.svg"
+              alt="Novatryck logotyp för reklamtryck i Stockholm"
             />
           </Link>
 
