@@ -483,7 +483,6 @@ function Hem() {
               alt="Tillväxtkort för företag från Novatryck i Stockholm"
               loading="lazy"
             />
-            <div className="home-growth-card-overlay"></div>
             <div className="home-growth-card-copy home-growth-card-copy-overlay">
               <div className="section-eyebrow">KOM IGÅNG</div>
               <h2 className="home-growth-card-title">

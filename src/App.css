@@ -1257,11 +1257,6 @@ header {
   display: block;
 }
 
-.home-growth-card-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(90deg, rgba(22, 17, 14, 0.68) 0%, rgba(22, 17, 14, 0.42) 38%, rgba(22, 17, 14, 0.12) 100%);
-}
 
 .home-growth-card-copy-overlay {
   position: relative;
@@ -1271,7 +1266,7 @@ header {
 
 .home-growth-card-copy-overlay .section-eyebrow,
 .home-growth-card-copy-overlay .home-growth-card-title {
-  color: #fff8f3;
+  color: #341306;
 }
 
 .home-growth-card-copy {
