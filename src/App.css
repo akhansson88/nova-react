@@ -3539,6 +3539,10 @@ header {
   border-top: 1px solid #ece1db;
 }
 
+.products-feature-rollup {
+  grid-template-columns: 1fr;
+}
+
 .reklam-feature-copy-rollup h2 {
   margin-bottom: 24px;
 }

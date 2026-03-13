@@ -317,13 +317,6 @@ function Produkter() {
               </div>
             </div>
 
-            <div className="reklam-feature-art reklam-feature-art-rollup">
-              <div className="reklam-feature-bg reklam-feature-bg-rollup"></div>
-              <div className="reklam-feature-cloud reklam-feature-cloud-rollup"></div>
-              <div className="reklam-feature-palette reklam-feature-palette-rollup"></div>
-              <div className="reklam-feature-image reklam-feature-image-rollup"></div>
-              <div className="reklam-feature-arrow-rollup"></div>
-            </div>
           </section>
         </div>
       </section>
