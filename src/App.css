@@ -3543,6 +3543,22 @@ header {
   grid-template-columns: 1fr;
 }
 
+.products-feature-rollup-image {
+  grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+  align-items: stretch;
+}
+
+.reklam-feature-art-rollup-image {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.reklam-feature-art-rollup-image .reklam-feature-full-image {
+  object-fit: contain;
+  object-position: center;
+}
+
 .reklam-feature-copy-rollup h2 {
   margin-bottom: 24px;
 }

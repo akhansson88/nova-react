@@ -263,7 +263,7 @@ function Produkter() {
             </div>
           </section>
 
-          <section className="reklam-feature reklam-feature-rollup products-feature-rollup">
+          <section className="reklam-feature reklam-feature-rollup products-feature-rollup products-feature-rollup-image">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy reklam-feature-copy-rollup">
               <h2>ROLL-UP</h2>
@@ -317,6 +317,14 @@ function Produkter() {
               </div>
             </div>
 
+            <div className="reklam-feature-art reklam-feature-art-rollup-image">
+              <img
+                className="reklam-feature-full-image"
+                src="/images/products/rollup-massvagg-novatryck-stockholm.png"
+                alt="Roll-up och mässvägg från Novatryck i Stockholm"
+                loading="lazy"
+              />
+            </div>
           </section>
         </div>
       </section>
