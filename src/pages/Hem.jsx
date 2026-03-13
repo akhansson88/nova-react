@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import PageHero from '../components/PageHero.jsx';
 
 function Hem() {
   const [mouseMoved, setMouseMoved] = useState(false);
@@ -36,44 +37,35 @@ function Hem() {
   return (
     <main className="page">
       <div className="container">
-        <section id="hem-hero" className="hero hero-home-with-image">
-          <div className="scroll-dot">↓</div>
-          <div>
-            <div className="eyebrow">HEM</div>
-            <h1 className="headline">
+        <PageHero
+          id="hem-hero"
+          pageName="HEM"
+          title={(
+            <>
               Behöver du tryck,
               <br />
               men vet inte vilket?
-            </h1>
+            </>
+          )}
+          middleContent={(
+            <>
+              <p className="hero-home-intro">
+                Vi erbjuder dig reklamtryck som är
+                <br />
+                anpassade efter DINA behov:
+              </p>
 
-            <p className="hero-home-intro">
-              Vi erbjuder dig reklamtryck som är
-              <br />
-              anpassade efter DINA behov:
-            </p>
-
-            <ul className="hero-home-list">
-              <li>TRYCKTA folier i alla format</li>
-              <li>Banderoller och reklam rollups</li>
-              <li>Utskurna bokstäver i alla färger</li>
-            </ul>
-
-            <div className="cta-row">
-              <button className="cta">FÅ OFFERT</button>
-              <button className="cta">RING OSS</button>
-            </div>
-
-            <div className="note">MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!</div>
-          </div>
-
-          <div className="hero-home-image-wrap">
-            <img
-              className="hero-home-image"
-              src="/images/hero/reklamtryck-foliering-novatryck-stockholm-hero.png"
-              alt="Reklamtryck och foliering från Novatryck i Stockholm"
-            />
-          </div>
-        </section>
+              <ul className="hero-home-list">
+                <li>TRYCKTA folier i alla format</li>
+                <li>Banderoller och reklam rollups</li>
+                <li>Utskurna bokstäver i alla färger</li>
+              </ul>
+            </>
+          )}
+          note="MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!"
+          imageSrc="/images/hero/reklamtryck-foliering-novatryck-stockholm-hero.png"
+          imageAlt="Reklamtryck och foliering från Novatryck i Stockholm"
+        />
       </div>
 
       <section id="hem-utmaningar" className="home-problems-section">
