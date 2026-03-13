@@ -13,11 +13,10 @@ function Header() {
       <div className="container">
         <nav className="nav">
           <div className="logo">
-            {/* Logo image inverted on dark background */}
             <img
-              src="https://i.postimg.cc/1tW6mw8K/nova-logo-(1).webp"
-              alt="Nova logo"
-              style={{ height: '32px', width: 'auto', display: 'block', filter: 'invert(1)' }}
+              src="/images/logos/novatryck-logotyp-stockholm-header.svg"
+              alt="Novatryck logotyp för reklamtryck i Stockholm"
+              style={{ height: '32px', width: 'auto', display: 'block' }}
             />
           </div>
           {/* Navigation links */}
