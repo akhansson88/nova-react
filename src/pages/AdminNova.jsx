@@ -28,6 +28,7 @@ function AdminNova() {
   const [activeView, setActiveView] = useState('dashboard');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
@@ -99,14 +100,27 @@ function AdminNova() {
 
                 <label className="admin-login-field">
                   <span>Lösenord</span>
-                  <input
-                    type="password"
-                    name="password"
-                    placeholder="Lösenord"
-                    autoComplete="current-password"
-                    value={password}
-                    onChange={(e) => setPassword(e.target.value)}
-                  />
+                  <div className="admin-password-wrap">
+                    <input
+                      type={showPassword ? 'text' : 'password'}
+                      name="password"
+                      placeholder="Lösenord"
+                      autoComplete="current-password"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                    />
+                    <button
+                      type="button"
+                      className="admin-password-toggle"
+                      aria-label={showPassword ? 'Dölj lösenord' : 'Visa lösenord'}
+                      onClick={() => setShowPassword((prev) => !prev)}
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                        <circle cx="12" cy="12" r="3" fill="none" stroke="currentColor" strokeWidth="1.8" />
+                      </svg>
+                    </button>
+                  </div>
                 </label>
 
                 {error ? <div className="admin-login-error">{error}</div> : null}

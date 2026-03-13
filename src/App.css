@@ -2751,6 +2751,35 @@ header {
   outline: none;
 }
 
+.admin-password-wrap {
+  position: relative;
+}
+
+.admin-password-wrap input {
+  padding-right: 52px;
+}
+
+.admin-password-toggle {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #7d6558;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+.admin-password-toggle svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 .admin-login-field input::placeholder {
   color: #9b8a80;
 }
