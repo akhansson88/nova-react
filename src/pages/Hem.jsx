@@ -551,7 +551,12 @@ function Hem() {
 
             <div className="home-growth-team-grid">
               <div className="home-growth-person-card">
-                <div className="home-growth-person-photo home-growth-person-photo-alex"></div>
+                <img
+                  className="home-growth-person-photo"
+                  src="/images/team/alexander-hansson-kundservice-novatryck.png"
+                  alt="Alexander Hansson, kundservice på Novatryck i Stockholm"
+                  loading="lazy"
+                />
                 <h3>Alexander Hansson</h3>
                 <p>Kundservice</p>
               </div>
