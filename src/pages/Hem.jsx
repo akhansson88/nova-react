@@ -161,28 +161,48 @@ function Hem() {
             <div className="home-questions-panel">
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-number">01</span>
+                  <img
+                    className="home-question-icon"
+                    src="/images/question-icons/reklamtryck-snabb-leverans-ikon-1.svg"
+                    alt="Ikon för reklamtryck med snabb leverans i Stockholm"
+                    loading="lazy"
+                  />
                 </div>
                 <p>Vill du ha högkvalitativa <strong>reklamtryck</strong> i kort tid?</p>
               </div>
 
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-number">02</span>
+                  <img
+                    className="home-question-icon"
+                    src="/images/question-icons/banderoller-specialstorlek-ikon-2.svg"
+                    alt="Ikon för banderoller i specialstorlekar från Novatryck"
+                    loading="lazy"
+                  />
                 </div>
                 <p>Letar du efter ett tryckeri som erbjuder personliga <strong>banderoller</strong> i specialstorlekar?</p>
               </div>
 
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-number">03</span>
+                  <img
+                    className="home-question-icon"
+                    src="/images/question-icons/reklamfolie-hallbarhet-ikon-3.svg"
+                    alt="Ikon för hållbar reklamfolie som tål väder"
+                    loading="lazy"
+                  />
                 </div>
                 <p>Behöver du hållbara <strong>reklamfolier</strong> som tål svåra väderförhållanden?</p>
               </div>
 
               <div className="home-question-item">
                 <div className="home-question-meta">
-                  <span className="home-question-number">04</span>
+                  <img
+                    className="home-question-icon"
+                    src="/images/question-icons/tryck-prisuppgift-ikon-4.svg"
+                    alt="Ikon för exakta prisuppgifter på tryck från Novatryck"
+                    loading="lazy"
+                  />
                 </div>
                 <p>Vill du ha exakta prisuppgifter för <strong>tryck</strong> utan dolda kostnader?</p>
               </div>
