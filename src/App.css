@@ -3485,6 +3485,12 @@ header {
 .reklam-feature-art-banderoller-image {
   min-height: 100%;
   display: flex;
+  align-items: center;
+}
+
+.reklam-feature-art-banderoller-image .reklam-feature-full-image {
+  object-fit: contain;
+  object-position: center;
 }
 
 .reklam-feature-copy-alt h2 {
