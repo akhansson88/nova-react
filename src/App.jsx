@@ -7,6 +7,7 @@ import OmOss from './pages/OmOss.jsx';
 import Produkter from './pages/Produkter.jsx';
 import Galleri from './pages/Galleri.jsx';
 import Kontakt from './pages/Kontakt.jsx';
+import AdminNova from './pages/AdminNova.jsx';
 
 /**
  * The main application component defines shared layout (header/footer) and
@@ -35,6 +36,7 @@ function App() {
         <Route path="/galleri" element={<Galleri />} />
         <Route path="/kontakt" element={<Kontakt />} />
         <Route path="/om-oss" element={<OmOss />} />
+        <Route path="/admin-nova" element={<AdminNova />} />
         {/* Redirect any unknown route back to the OmOss page */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
