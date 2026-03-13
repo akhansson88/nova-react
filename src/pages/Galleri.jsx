@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import PageHero from '../components/PageHero.jsx';
 
 const galleryImages = [
   { src: 'https://images.unsplash.com/photo-1605721911519-3d28c370184a?w=1200', alt: 'Projektbild 1' },
@@ -22,52 +23,22 @@ function Galleri() {
   return (
     <main className="page">
       <div className="container">
-        <section id="galleri-hero" className="hero hero-home">
-          <div className="scroll-dot">↓</div>
-          <div>
-            <div className="eyebrow">GALLERI</div>
-            <h1 className="headline">
-              Tryckning Dekaler,<br />
-              Fönsterdekor, Bildekaler,<br />
-              Banderoller, Rollup,<br />
+        <PageHero
+          id="galleri-hero"
+          pageName="GALLERI"
+          title={(
+            <>
+              Tryckning, Dekaler,
+              <br />
+              Fönsterdekor, Bildekaler,
+              <br />
+              Banderoller, Roll-up,
+              <br />
               Bilfoliering
-            </h1>
-
-            <div className="cta-row">
-              <button className="cta">FÅ OFFERT</button>
-              <button className="cta">RING OSS</button>
-            </div>
-
-            <div className="note">MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!</div>
-          </div>
-
-          <div className="art">
-            <div className="bg-card"></div>
-            <div className="cloud-scribble"></div>
-            <div
-              className="floating-card"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/HL2QVfJm/color-palette.webp')",
-              }}
-            ></div>
-            <div
-              className="main-image"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/TPVXmcGX/Chat-GPT-Image-Mar-6-2026-08-33-33-AM.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-            <div
-              className="portrait"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/pdZDpg9N/profile-picture.webp')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-          </div>
-        </section>
+            </>
+          )}
+          note="MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!"
+        />
       </div>
 
       <section id="galleri-projekt" className="gallery-projects-section">
