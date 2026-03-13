@@ -3242,9 +3242,11 @@ header {
   color: #d6d1cb;
 }
 
-.reklam-icon-wrap svg {
+.reklam-icon-wrap img {
   width: 56px;
   height: 56px;
+  object-fit: contain;
+  display: block;
 }
 
 .reklam-card h3 {

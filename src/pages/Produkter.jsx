@@ -1,70 +1,37 @@
 import React from 'react';
 
 const products = [
-  { title: 'DEKALER', icon: 'frame' },
-  { title: 'BANDEROLLER', icon: 'banner' },
-  { title: 'ROLL-UPS', icon: 'rollup' },
-  { title: 'FÖNSTERDEKOR', icon: 'window' },
-  { title: 'BILDEKOR', icon: 'car' },
-  { title: 'FROSTFOLIE', icon: 'drop' },
+  {
+    title: 'DEKALER',
+    image: '/images/product-icons/dekaler-ikon-novatryck-stockholm.png',
+    alt: 'Ikon för dekaler från Novatryck i Stockholm',
+  },
+  {
+    title: 'BANDEROLLER',
+    image: '/images/product-icons/banderoller-ikon-novatryck-stockholm.png',
+    alt: 'Ikon för banderoller från Novatryck i Stockholm',
+  },
+  {
+    title: 'ROLL-UPS',
+    image: '/images/product-icons/rollup-ikon-novatryck-stockholm.png',
+    alt: 'Ikon för roll-ups från Novatryck i Stockholm',
+  },
+  {
+    title: 'FÖNSTERDEKOR',
+    image: '/images/product-icons/fonsterdekor-ikon-novatryck-stockholm.png',
+    alt: 'Ikon för fönsterdekor från Novatryck i Stockholm',
+  },
+  {
+    title: 'BILDEKOR',
+    image: '/images/product-icons/bildekor-ikon-novatryck-stockholm.png',
+    alt: 'Ikon för bildekor från Novatryck i Stockholm',
+  },
+  {
+    title: 'FROSTFOLIE',
+    image: '/images/product-icons/frostfolie-ikon-novatryck-stockholm.png',
+    alt: 'Ikon för frostfolie från Novatryck i Stockholm',
+  },
 ];
-
-function ProductIcon({ type }) {
-  switch (type) {
-    case 'frame':
-      return (
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <rect x="10" y="14" width="44" height="34" rx="3" fill="none" stroke="currentColor" strokeWidth="3" />
-          <circle cx="23" cy="25" r="4" fill="currentColor" />
-          <path d="M16 42l11-11 8 8 7-7 10 10" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      );
-    case 'banner':
-      return (
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <rect x="12" y="18" width="40" height="26" rx="4" fill="none" stroke="currentColor" strokeWidth="3" />
-          <circle cx="22" cy="25" r="2" fill="currentColor" />
-          <circle cx="42" cy="25" r="2" fill="currentColor" />
-          <circle cx="22" cy="37" r="2" fill="currentColor" />
-          <circle cx="42" cy="37" r="2" fill="currentColor" />
-        </svg>
-      );
-    case 'rollup':
-      return (
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M22 14h20v30H22z" fill="none" stroke="currentColor" strokeWidth="3" />
-          <path d="M26 18h12" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-          <path d="M32 44v8" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-          <path d="M24 52h16" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-          <path d="M18 22l-6-6" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-        </svg>
-      );
-    case 'window':
-      return (
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <rect x="14" y="14" width="36" height="36" rx="2" fill="none" stroke="currentColor" strokeWidth="3" />
-          <path d="M32 14v36M14 32h36" fill="none" stroke="currentColor" strokeWidth="3" />
-        </svg>
-      );
-    case 'car':
-      return (
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M18 40l5-13h18l10 13v6H14v-4a2 2 0 0 1 2-2h2z" fill="none" stroke="currentColor" strokeWidth="3" strokeLinejoin="round" />
-          <circle cx="24" cy="47" r="4" fill="none" stroke="currentColor" strokeWidth="3" />
-          <circle cx="42" cy="47" r="4" fill="none" stroke="currentColor" strokeWidth="3" />
-        </svg>
-      );
-    case 'drop':
-      return (
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <path d="M32 13c10 13 18 20 18 30a18 18 0 1 1-36 0c0-10 8-17 18-30z" fill="none" stroke="currentColor" strokeWidth="3" />
-          <path d="M24 44c2 4 6 6 10 6" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-        </svg>
-      );
-    default:
-      return null;
-  }
-}
 
 function Produkter() {
   return (
@@ -151,7 +118,7 @@ function Produkter() {
               <a key={product.title} href="#" className="reklam-card">
                 <span className="reklam-card-badge">✓</span>
                 <div className="reklam-icon-wrap">
-                  <ProductIcon type={product.icon} />
+                  <img src={product.image} alt={product.alt} loading="lazy" />
                 </div>
                 <h3>{product.title}</h3>
                 <span>Läs mer</span>
