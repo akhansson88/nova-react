@@ -4193,6 +4193,26 @@ header {
   align-items: center;
 }
 
+.products-frost-section .frost-layout {
+  grid-template-columns: 1fr;
+}
+
+.products-frost-layout-image {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.92fr) !important;
+  align-items: stretch;
+}
+
+.frost-art-image-only {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.frost-art-image-only .reklam-feature-full-image {
+  object-fit: contain;
+  object-position: center;
+}
+
 .frost-art {
   position: relative;
   min-height: 420px;

@@ -452,13 +452,14 @@ function Produkter() {
       <section className="frost-section products-frost-section">
         <div className="scroll-dot">↓</div>
         <div className="frost-container">
-          <div className="frost-layout">
-            <div className="frost-art">
-              <div className="frost-bg"></div>
-              <div className="frost-cloud"></div>
-              <div className="frost-card"></div>
-              <div className="frost-image"></div>
-              <div className="frost-arrow"></div>
+          <div className="frost-layout products-frost-layout-image">
+            <div className="frost-art frost-art-image-only">
+              <img
+                className="reklam-feature-full-image"
+                src="/images/products/frostfolie-insynsskydd-novatryck-stockholm.png"
+                alt="Frostfolie och insynsskydd från Novatryck i Stockholm"
+                loading="lazy"
+              />
             </div>
 
             <div className="frost-copy">
