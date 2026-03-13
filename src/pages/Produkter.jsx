@@ -388,7 +388,7 @@ function Produkter() {
       <section className="vehicle-section products-vehicle-section">
         <div className="scroll-dot">↓</div>
         <div className="vehicle-container">
-          <div className="vehicle-layout">
+          <div className="vehicle-layout products-vehicle-layout-image">
             <div className="vehicle-copy">
               <h2>FOLIERING, BILDEKOR</h2>
               <p className="vehicle-lead">
@@ -437,12 +437,13 @@ function Produkter() {
               </div>
             </div>
 
-            <div className="vehicle-art">
-              <div className="vehicle-bg"></div>
-              <div className="vehicle-cloud"></div>
-              <div className="vehicle-card"></div>
-              <div className="vehicle-image"></div>
-              <div className="vehicle-arrow"></div>
+            <div className="vehicle-art vehicle-art-image-only">
+              <img
+                className="reklam-feature-full-image"
+                src="/images/products/bilfoliering-bildekor-novatryck-stockholm.png"
+                alt="Bilfoliering och bildekor från Novatryck i Stockholm"
+                loading="lazy"
+              />
             </div>
           </div>
         </div>
