@@ -559,7 +559,7 @@ function Hem() {
               <div className="home-growth-person-card">
                 <img
                   className="home-growth-person-photo"
-                  src="/images/team/lukas-stolarski-produktion-foliering-novatryck.jpg"
+                  src="/images/team/lukas-stolarski-produktion-foliering-novatryck.png"
                   alt="Lukas Stolarski, produktion och foliering på Novatryck i Stockholm"
                   loading="lazy"
                 />

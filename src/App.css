@@ -1423,9 +1423,6 @@ header {
   background: transparent;
 }
 
-.home-growth-person-photo[src*="lukas-stolarski"] {
-  mix-blend-mode: multiply;
-}
 
 .home-growth-person-photo-alex {
   background-image: url('https://i.postimg.cc/pdZDpg9N/profile-picture.webp');
