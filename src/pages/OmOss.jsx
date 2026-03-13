@@ -11,7 +11,7 @@ function OmOss() {
     <main className="page">
       {/* Container wraps the hero section */}
       <div className="container">
-        <section className="hero">
+        <section id="om-oss-hero" className="hero">
           <div className="scroll-dot">↓</div>
           {/* Left column with headline and call‑to‑action buttons */}
           <div>
@@ -64,7 +64,7 @@ function OmOss() {
       </div>
 
       {/* Benefits section describing why to choose the service */}
-      <section className="benefits-section">
+      <section id="om-oss-fordelar" className="benefits-section">
         <div className="scroll-dot">↓</div>
         <div className="benefits-container">
           <div className="section-eyebrow">ÄR DU</div>
@@ -145,7 +145,7 @@ function OmOss() {
       </section>
 
       {/* Contact band section */}
-      <section className="contact-band-section">
+      <section id="om-oss-kontaktband" className="contact-band-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">

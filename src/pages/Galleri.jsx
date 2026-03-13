@@ -22,7 +22,7 @@ function Galleri() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero hero-home">
+        <section id="galleri-hero" className="hero hero-home">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">GALLERI</div>
@@ -70,7 +70,7 @@ function Galleri() {
         </section>
       </div>
 
-      <section className="gallery-projects-section">
+      <section id="galleri-projekt" className="gallery-projects-section">
         <div className="scroll-dot">↓</div>
         <div className="gallery-projects-container">
           <div className="section-eyebrow">VÅRA</div>
@@ -123,7 +123,7 @@ function Galleri() {
         </div>
       </section>
 
-      <section className="gallery-cta-section">
+      <section id="galleri-cta" className="gallery-cta-section">
         <div className="scroll-dot">↓</div>
         <div className="gallery-cta-container">
           <p className="gallery-cta-copy">
@@ -147,7 +147,7 @@ function Galleri() {
         </div>
       </section>
 
-      <section className="gallery-showcase-section">
+      <section id="galleri-bildvisning" className="gallery-showcase-section">
         <div className="scroll-dot">↓</div>
         <div className="gallery-showcase-container">
           <div className="gallery-showcase-header">
@@ -170,7 +170,7 @@ function Galleri() {
         </div>
       </section>
 
-      <section className="contact-band-section reklam-contact-section">
+      <section id="galleri-kontaktband" className="contact-band-section reklam-contact-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">

@@ -37,7 +37,7 @@ function Produkter() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero hero-home">
+        <section id="produkter-hero" className="hero hero-home">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">PRODUKTER</div>
@@ -85,7 +85,7 @@ function Produkter() {
         </section>
       </div>
 
-      <section className="products-section">
+      <section id="produkter-oversikt" className="products-section">
         <div className="scroll-dot">↓</div>
         <div className="reklam-container">
           <div className="reklam-logo-row reklam-logo-row-image">
@@ -125,7 +125,7 @@ function Produkter() {
             ))}
           </div>
 
-          <section className="reklam-feature products-feature products-feature-dekaler-image">
+          <section id="produkter-dekaler" className="reklam-feature products-feature products-feature-dekaler-image">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy">
               <h2>DEKALER</h2>
@@ -171,7 +171,7 @@ function Produkter() {
             </div>
           </section>
 
-          <section className="reklam-feature reklam-feature-alt products-feature-alt products-feature-banderoller-image">
+          <section id="produkter-banderoller" className="reklam-feature reklam-feature-alt products-feature-alt products-feature-banderoller-image">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-art reklam-feature-art-banderoller-image">
               <img
@@ -229,7 +229,7 @@ function Produkter() {
             </div>
           </section>
 
-          <section className="reklam-feature reklam-feature-rollup products-feature-rollup products-feature-rollup-image">
+          <section id="produkter-rollups" className="reklam-feature reklam-feature-rollup products-feature-rollup products-feature-rollup-image">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy reklam-feature-copy-rollup">
               <h2>ROLL-UP</h2>
@@ -295,7 +295,7 @@ function Produkter() {
         </div>
       </section>
 
-      <section className="window-section products-window-section">
+      <section id="produkter-fonsterdekor" className="window-section products-window-section">
         <div className="scroll-dot">↓</div>
         <div className="window-container">
           <div className="window-layout products-window-layout-image">
@@ -351,7 +351,7 @@ function Produkter() {
         </div>
       </section>
 
-      <section className="vehicle-section products-vehicle-section">
+      <section id="produkter-bildekor" className="vehicle-section products-vehicle-section">
         <div className="scroll-dot">↓</div>
         <div className="vehicle-container">
           <div className="vehicle-layout products-vehicle-layout-image">
@@ -415,7 +415,7 @@ function Produkter() {
         </div>
       </section>
 
-      <section className="frost-section products-frost-section">
+      <section id="produkter-frostfolie" className="frost-section products-frost-section">
         <div className="scroll-dot">↓</div>
         <div className="frost-container">
           <div className="frost-layout products-frost-layout-image">
@@ -479,7 +479,7 @@ function Produkter() {
         </div>
       </section>
 
-      <section className="contact-band-section reklam-contact-section">
+      <section id="produkter-kontaktband" className="contact-band-section reklam-contact-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">

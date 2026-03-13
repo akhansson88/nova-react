@@ -72,7 +72,7 @@ function Reklam() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero">
+        <section id="reklam-hero" className="hero">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">OM OSS</div>
@@ -120,7 +120,7 @@ function Reklam() {
         </section>
       </div>
 
-      <section className="reklam-section">
+      <section id="reklam-oversikt" className="reklam-section">
         <div className="scroll-dot">↓</div>
         <div className="reklam-container">
           <div className="reklam-logo-row">
@@ -159,7 +159,7 @@ function Reklam() {
             ))}
           </div>
 
-          <section className="reklam-feature">
+          <section id="reklam-dekaler" className="reklam-feature">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy">
               <h2>DEKALER</h2>
@@ -203,7 +203,7 @@ function Reklam() {
             </div>
           </section>
 
-          <section className="reklam-feature reklam-feature-alt">
+          <section id="reklam-banderoller" className="reklam-feature reklam-feature-alt">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-art reklam-feature-art-alt">
               <div className="reklam-feature-bg reklam-feature-bg-alt"></div>
@@ -259,7 +259,7 @@ function Reklam() {
             </div>
           </section>
 
-          <section className="reklam-feature reklam-feature-rollup">
+          <section id="reklam-rollups" className="reklam-feature reklam-feature-rollup">
             <div className="scroll-dot">↓</div>
             <div className="reklam-feature-copy reklam-feature-copy-rollup">
               <h2>ROLL-UP</h2>
@@ -324,7 +324,7 @@ function Reklam() {
         </div>
       </section>
 
-      <section className="window-section">
+      <section id="reklam-fonsterdekor" className="window-section">
         <div className="scroll-dot">↓</div>
         <div className="window-container">
           <div className="window-layout">
@@ -379,7 +379,7 @@ function Reklam() {
         </div>
       </section>
 
-      <section className="vehicle-section">
+      <section id="reklam-bildekor" className="vehicle-section">
         <div className="scroll-dot">↓</div>
         <div className="vehicle-container">
           <div className="vehicle-layout">
@@ -442,7 +442,7 @@ function Reklam() {
         </div>
       </section>
 
-      <section className="frost-section">
+      <section id="reklam-frostfolie" className="frost-section">
         <div className="scroll-dot">↓</div>
         <div className="frost-container">
           <div className="frost-layout">
@@ -505,7 +505,7 @@ function Reklam() {
         </div>
       </section>
 
-      <section className="contact-band-section reklam-contact-section">
+      <section id="reklam-kontaktband" className="contact-band-section reklam-contact-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">

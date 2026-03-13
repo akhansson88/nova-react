@@ -36,7 +36,7 @@ function Kontakt() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero hero-home">
+        <section id="kontakt-hero" className="hero hero-home">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">KONTAKT</div>
@@ -84,7 +84,7 @@ function Kontakt() {
         </section>
       </div>
 
-      <section className="contact-page-section">
+      <section id="kontakt-uppgifter-och-formular" className="contact-page-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-page-container">
           <div className="contact-page-top">
@@ -150,7 +150,7 @@ function Kontakt() {
         </div>
       </section>
 
-      <section className="contact-map-section">
+      <section id="kontakt-karta" className="contact-map-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-map-wrap">
           <iframe

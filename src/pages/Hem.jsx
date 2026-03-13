@@ -36,7 +36,7 @@ function Hem() {
   return (
     <main className="page">
       <div className="container">
-        <section className="hero hero-home-with-image">
+        <section id="hem-hero" className="hero hero-home-with-image">
           <div className="scroll-dot">↓</div>
           <div>
             <div className="eyebrow">HEM</div>
@@ -65,7 +65,7 @@ function Hem() {
         </section>
       </div>
 
-      <section className="home-problems-section">
+      <section id="hem-utmaningar" className="home-problems-section">
         <div className="scroll-dot">↓</div>
         <div className="home-problems-container">
           <div className="section-eyebrow">ÄVEN</div>
@@ -130,7 +130,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-questions-section">
+      <section id="hem-fragor" className="home-questions-section">
         <div className="scroll-dot scroll-dot-dark">↓</div>
         <div className="home-questions-container">
           <div className="home-questions-layout">
@@ -190,7 +190,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-transition-section">
+      <section id="hem-forandring" className="home-transition-section">
         <div className="scroll-dot scroll-dot-dark">↓</div>
         <div className="home-transition-container">
           <div className="section-eyebrow">VÅRT TRYCKERI HAR SKAPATS MED SÅDANA BEHOV I ÅTANKE</div>
@@ -237,7 +237,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-meaning-section">
+      <section id="hem-vad-vi-menar" className="home-meaning-section">
         <div className="scroll-dot">↓</div>
         <div className="home-meaning-container">
           <div className="home-meaning-layout">
@@ -281,7 +281,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-summary-section">
+      <section id="hem-sammanfattning" className="home-summary-section">
         <div className="scroll-dot scroll-dot-dark">↓</div>
         <div className="home-summary-container">
           <div className="section-eyebrow">SAMMANFATTNING</div>
@@ -305,7 +305,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-value-section">
+      <section id="hem-varfor-vart" className="home-value-section">
         <div className="scroll-dot">↓</div>
         <div className="home-value-container">
           <div className="home-value-layout">
@@ -377,7 +377,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-bonus-section">
+      <section id="hem-bonusar" className="home-bonus-section">
         <div className="scroll-dot scroll-dot-dark">↓</div>
         <div className="home-bonus-section-container">
           <div className="section-eyebrow">DESSUTOM</div>
@@ -419,7 +419,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-cheap-section">
+      <section id="hem-varfor-billigt" className="home-cheap-section">
         <div className="scroll-dot scroll-dot-dark">↓</div>
         <div className="home-cheap-section-container">
           <div className="home-cheap-layout">
@@ -473,7 +473,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-growth-section">
+      <section id="hem-tillvaxt" className="home-growth-section">
         <div className="scroll-dot">↓</div>
         <div className="home-growth-container">
           <div className="home-growth-card">
@@ -577,7 +577,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="home-faq-section">
+      <section id="hem-vanliga-fragor" className="home-faq-section">
         <div className="scroll-dot scroll-dot-dark">↓</div>
         <div className="home-faq-container">
           <h2 className="home-faq-title">Har Du Frågor?</h2>
@@ -621,7 +621,7 @@ function Hem() {
         </div>
       </section>
 
-      <section className="contact-band-section">
+      <section id="hem-kontaktband" className="contact-band-section">
         <div className="scroll-dot">↓</div>
         <div className="contact-band-container">
           <div className="contact-band">
