@@ -16,7 +16,7 @@ function Header() {
             <img
               src="/images/logos/novatryck-logotyp-stockholm-header.svg"
               alt="Novatryck logotyp för reklamtryck i Stockholm"
-              style={{ height: '32px', width: 'auto', display: 'block' }}
+              style={{ height: '32px', width: 'auto', display: 'block', filter: 'invert(1)' }}
             />
           </div>
           {/* Navigation links */}
