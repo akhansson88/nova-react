@@ -21,11 +21,23 @@
   box-sizing: border-box;
 }
 
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-size: 16px;
   background: var(--bottom-bar);
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -2656,13 +2668,17 @@ header {
 }
 
 .admin-shell {
-  min-height: 100vh;
+  flex: 1;
+  min-height: 0;
   background: var(--navy);
   color: var(--white);
+  display: flex;
+  flex-direction: column;
 }
 
 .admin-shell-loading {
-  min-height: 100vh;
+  flex: 1;
+  min-height: 0;
   display: grid;
   place-items: center;
   color: #f7f7f7;
@@ -2674,7 +2690,8 @@ header {
 }
 
 .admin-login-section {
-  min-height: 100vh;
+  flex: 1;
+  min-height: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2797,7 +2814,8 @@ header {
 }
 
 .admin-layout {
-  min-height: 100vh;
+  flex: 1;
+  min-height: 0;
   display: grid;
   grid-template-columns: 280px minmax(0, 1fr);
 }
@@ -2809,6 +2827,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 .admin-sidebar-top {
@@ -2864,7 +2884,9 @@ header {
   background: #f3f1ef;
   padding: 42px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  min-height: 0;
+  overflow-y: auto;
 }
 
 .admin-content-card {
@@ -2873,6 +2895,7 @@ header {
   border-radius: 14px;
   padding: 34px;
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.08);
+  flex: 0 0 auto;
 }
 
 .admin-content-title {

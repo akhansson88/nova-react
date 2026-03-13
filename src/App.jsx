@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="app-shell">
       <Header />
       <Routes>
         <Route path="/" element={<Hem />} />
@@ -36,7 +36,7 @@ function App() {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       {!isAdminRoute && <Footer />}
-    </>
+    </div>
   );
 }
 
