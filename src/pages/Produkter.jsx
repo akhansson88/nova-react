@@ -207,13 +207,6 @@ function Produkter() {
 
           <section className="reklam-feature reklam-feature-alt products-feature-alt">
             <div className="scroll-dot">↓</div>
-            <div className="reklam-feature-art reklam-feature-art-alt">
-              <div className="reklam-feature-bg reklam-feature-bg-alt"></div>
-              <div className="reklam-feature-cloud reklam-feature-cloud-alt"></div>
-              <div className="reklam-feature-palette reklam-feature-palette-alt"></div>
-              <div className="reklam-feature-image reklam-feature-image-alt"></div>
-            </div>
-
             <div className="reklam-feature-copy reklam-feature-copy-alt">
               <h2>BANDEROLLER</h2>
               <p className="reklam-feature-lead">

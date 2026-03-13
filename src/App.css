@@ -3473,6 +3473,10 @@ header {
   border-top: 1px solid #ece1db;
 }
 
+.products-feature-alt {
+  grid-template-columns: 1fr;
+}
+
 .reklam-feature-copy-alt h2 {
   margin-bottom: 24px;
 }
