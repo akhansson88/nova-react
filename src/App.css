@@ -2289,8 +2289,6 @@ header {
 }
 
 .benefit-icon {
-  width: 24px;
-  height: 24px;
   display: block;
   object-fit: contain;
   margin-top: 2px;
