@@ -1,4 +1,5 @@
 import React from 'react';
+import PageHero from '../components/PageHero.jsx';
 
 /**
  * The OmOss page replicates the supplied HTML design for the "Om oss"
@@ -9,59 +10,22 @@ import React from 'react';
 function OmOss() {
   return (
     <main className="page">
-      {/* Container wraps the hero section */}
-      <div className="container">
-        <section id="om-oss-hero" className="hero">
-          <div className="scroll-dot">↓</div>
-          {/* Left column with headline and call‑to‑action buttons */}
-          <div>
-            <div className="eyebrow">OM OSS</div>
-            <h1 className="headline">
-              Tryckning Dekaler,<br />
-              Fönsterdekor, Bildekaler,<br />
-              Banderoller, Rollup,<br />
-              Bilfoliering
-            </h1>
-
-            <div className="cta-row">
-              <button className="cta">FÅ OFFERT</button>
-              <button className="cta">RING OSS</button>
-            </div>
-
-            <div className="note">
-              MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!
-            </div>
-          </div>
-
-          {/* Right column with decorative art */}
-          <div className="art">
-            <div className="bg-card"></div>
-            <div className="cloud-scribble"></div>
-            <div
-              className="floating-card"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/HL2QVfJm/color-palette.webp')",
-              }}
-            ></div>
-            <div
-              className="main-image"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/TPVXmcGX/Chat-GPT-Image-Mar-6-2026-08-33-33-AM.png')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-            <div
-              className="portrait"
-              style={{
-                backgroundImage: "url('https://i.postimg.cc/pdZDpg9N/profile-picture.webp')",
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-              }}
-            ></div>
-          </div>
-        </section>
-      </div>
+      <PageHero
+        id="om-oss-hero"
+        pageName="OM OSS"
+        title={(
+          <>
+            Tryckning Dekaler,
+            <br />
+            Fönsterdekor, Bildekaler,
+            <br />
+            Banderoller, Roll-Up,
+            <br />
+            Bilfoliering
+          </>
+        )}
+        note="MÖJLIGHET ATT KÖPA REDAN FRÅN 1 STYCK!"
+      />
 
       {/* Benefits section describing why to choose the service */}
       <section id="om-oss-fordelar" className="benefits-section">
