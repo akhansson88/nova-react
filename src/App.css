@@ -707,14 +707,8 @@ header {
 .home-meaning-bullet {
   width: 18px;
   height: 18px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  object-fit: contain;
   margin-top: 5px;
 }
 
@@ -817,14 +811,8 @@ header {
 .home-summary-check {
   width: 16px;
   height: 16px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  object-fit: contain;
   margin-bottom: 16px;
 }
 
@@ -927,17 +915,11 @@ header {
 }
 
 .home-value-check {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4px;
+  width: 22px;
+  height: 22px;
+  display: block;
+  object-fit: contain;
+  margin-top: 2px;
 }
 
 .home-value-item h3 {
@@ -1189,17 +1171,11 @@ header {
 }
 
 .home-cheap-check {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 10px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4px;
+  width: 22px;
+  height: 22px;
+  display: block;
+  object-fit: contain;
+  margin-top: 2px;
 }
 
 .home-cheap-item h3 {
@@ -1598,18 +1574,12 @@ header {
 }
 
 .home-faq-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 8px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  object-fit: contain;
   flex: 0 0 auto;
-  margin-top: 6px;
+  margin-top: 3px;
 }
 
 @media (max-width: 780px) {
@@ -1954,22 +1924,25 @@ header {
 }
 
 .hero-home-list li {
-  position: relative;
-  padding-left: 22px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
   margin-bottom: 10px;
   color: #d6dfeb;
   font-size: 18px;
   line-height: 1.5;
 }
 
-.hero-home-list li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: var(--coral);
-  font-size: 22px;
-  line-height: 1;
+.checkmark-icon {
+  display: inline-block;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.checkmark-icon-small {
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
 }
 
 .cta-row {
@@ -2181,6 +2154,10 @@ header {
   .hero-home-list li {
     font-size: 16px;
   }
+
+  .checkmark-icon-small {
+    margin-top: 3px;
+  }
   .hero-home-intro br {
     display: none;
   }
@@ -2326,14 +2303,8 @@ header {
 .benefit-icon {
   width: 24px;
   height: 24px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 800;
+  display: block;
+  object-fit: contain;
   margin-top: 2px;
 }
 
@@ -3279,14 +3250,8 @@ header {
 .gallery-project-check {
   width: 16px;
   height: 16px;
-  border-radius: 50%;
-  background: var(--coral);
-  color: #fff;
-  font-size: 9px;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  object-fit: contain;
   margin-top: 4px;
 }
 

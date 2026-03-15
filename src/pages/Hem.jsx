@@ -57,9 +57,9 @@ function Hem() {
               </p>
 
               <ul className="hero-home-list">
-                <li>TRYCKTA folier i alla format</li>
-                <li>Banderoller och reklam rollups</li>
-                <li>Utskurna bokstäver i alla färger</li>
+                <li><img src="/icons/small-checkmark.svg" alt="small checkmark" className="checkmark-icon checkmark-icon-small" />TRYCKTA folier i alla format</li>
+                <li><img src="/icons/small-checkmark.svg" alt="small checkmark" className="checkmark-icon checkmark-icon-small" />Banderoller och reklam rollups</li>
+                <li><img src="/icons/small-checkmark.svg" alt="small checkmark" className="checkmark-icon checkmark-icon-small" />Utskurna bokstäver i alla färger</li>
               </ul>
             </>
           )}
@@ -290,23 +290,23 @@ function Hem() {
 
               <div className="home-meaning-list">
                 <div className="home-meaning-item">
-                  <span className="home-meaning-bullet">✓</span>
+                  <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-meaning-bullet" />
                   <p>Du sparar pengar – vi har marknadens bästa priser.</p>
                 </div>
                 <div className="home-meaning-item">
-                  <span className="home-meaning-bullet">✓</span>
+                  <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-meaning-bullet" />
                   <p>Vi erbjuder support och rådgivning i varje steg av beställningen, utan dolda kostnader.</p>
                 </div>
                 <div className="home-meaning-item">
-                  <span className="home-meaning-bullet">✓</span>
+                  <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-meaning-bullet" />
                   <p>Du behöver inte oroa dig för reklamfilmens hållbarhet.</p>
                 </div>
                 <div className="home-meaning-item">
-                  <span className="home-meaning-bullet">✓</span>
+                  <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-meaning-bullet" />
                   <p>Du behöver inte designa – vi erbjuder gratis mallar.</p>
                 </div>
                 <div className="home-meaning-item">
-                  <span className="home-meaning-bullet">✓</span>
+                  <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-meaning-bullet" />
                   <p>Du sparar tid tack vare snabb leverans av beställningar.</p>
                 </div>
               </div>
@@ -332,11 +332,11 @@ function Hem() {
 
           <div className="home-summary-grid">
             <div className="home-summary-item">
-              <span className="home-summary-check">✓</span>
+              <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-summary-check" />
               <p>Vi har skapat ett TRYCKERI som till 100 % uppfyller dina behov.</p>
             </div>
             <div className="home-summary-item">
-              <span className="home-summary-check">✓</span>
+              <img src="/icons/small-checkmark.svg" alt="small checkmark" className="home-summary-check" />
               <p>Du får ett produkt av högsta kvalitet till ett fantastiskt pris.</p>
             </div>
           </div>
@@ -377,7 +377,7 @@ function Hem() {
 
             <div className="home-value-list">
               <div className="home-value-item">
-                <span className="home-value-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-value-check" />
                 <div>
                   <h3>Äntligen får du precis den utskrift du behöver.</h3>
                   <p>Slut på att leta efter tryckerier, erbjudanden, slöseri med tid och felaktigt spenderade pengar.</p>
@@ -385,7 +385,7 @@ function Hem() {
               </div>
 
               <div className="home-value-item">
-                <span className="home-value-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-value-check" />
                 <div>
                   <h3>Du får en utskrift, en banner i bästa möjliga kvalitet på marknaden.</h3>
                   <p>Slut med besvikelser på grund av felaktiga utskrifter och slösade budgetar.</p>
@@ -393,7 +393,7 @@ function Hem() {
               </div>
 
               <div className="home-value-item">
-                <span className="home-value-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-value-check" />
                 <div>
                   <h3>Dina annonser kommer att hålla även i svenskt väder.</h3>
                   <p>Utskrifterna skyddas med transparent folie, vilket gör dem motståndskraftiga mot skador och repor.</p>
@@ -401,7 +401,7 @@ function Hem() {
               </div>
 
               <div className="home-value-item">
-                <span className="home-value-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-value-check" />
                 <div>
                   <h3>Du letar efter en mångsidig produkt, men du vet också att det inte alltid är helt enkelt att hitta rätt.</h3>
                   <p>Vi väljer ut de bästa lösningarna till priser som passar alla plånböcker.</p>
@@ -409,7 +409,7 @@ function Hem() {
               </div>
 
               <div className="home-value-item">
-                <span className="home-value-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-value-check" />
                 <div>
                   <h3>Du får professionell hjälp med att utforma reklam.</h3>
                   <p>Du behöver inte oroa dig för brist på idéer eller tekniska fel.</p>
@@ -489,7 +489,7 @@ function Hem() {
 
             <div className="home-cheap-list">
               <div className="home-cheap-item">
-                <span className="home-cheap-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-cheap-check" />
                 <div>
                   <h3>Vi vill hjälpa dig.</h3>
                   <p>Vi vet att det kan vara frustrerande att leta efter ett tryckeri, därför levererar vi banderoller som passar perfekt till ditt behov.</p>
@@ -497,7 +497,7 @@ function Hem() {
               </div>
 
               <div className="home-cheap-item">
-                <span className="home-cheap-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-cheap-check" />
                 <div>
                   <h3>Vi vill presentera oss.</h3>
                   <p>Många företag erbjuder reklamtryck – vilket ska man välja? Med vårt erbjudande och vår service vill vi visa dig vår inställning och vilken kvalitet du kan förvänta dig. Du kommer att se att det är något helt annat än det du är van vid.</p>
@@ -505,7 +505,7 @@ function Hem() {
               </div>
 
               <div className="home-cheap-item">
-                <span className="home-cheap-check">✓</span>
+                <img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-cheap-check" />
                 <div>
                   <h3>För vi har uppdrag.</h3>
                   <p>Vårt mål är att spara tid åt dig genom att leverera högkvalitativa reklamtryck i Stockholm.</p>
@@ -635,32 +635,32 @@ function Hem() {
           <div className="home-faq-list">
             <div className="home-faq-item">
               <h3>Hur länge måste jag vänta på mitt paket?</h3>
-              <p><span className="home-faq-dot">✚</span> Beroende på orderstorleken 1–3 arbetsdagar. Vi levererar</p>
+              <p><img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-faq-dot" /> Beroende på orderstorleken 1–3 arbetsdagar. Vi levererar</p>
             </div>
 
             <div className="home-faq-item">
               <h3>Kommer jag att få en faktura ?</h3>
-              <p><span className="home-faq-dot">✚</span> Ja, du får det. Kom bara ihåg att ange dina uppgifter vid köpet.</p>
+              <p><img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-faq-dot" /> Ja, du får det. Kom bara ihåg att ange dina uppgifter vid köpet.</p>
             </div>
 
             <div className="home-faq-item">
               <h3>Hur gör man en beställning?</h3>
-              <p><span className="home-faq-dot">✚</span> Klicka här för en steg-för-steg-guide om hur du beställer trycksaker.</p>
+              <p><img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-faq-dot" /> Klicka här för en steg-för-steg-guide om hur du beställer trycksaker.</p>
             </div>
 
             <div className="home-faq-item">
               <h3>Är du osäker på om rollup-banderollerna kommer att stämma överens med designen?</h3>
-              <p><span className="home-faq-dot">✚</span> Slut med besvikelser på grund av felaktiga utskrifter och slösade budgetar.</p>
+              <p><img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-faq-dot" /> Slut med besvikelser på grund av felaktiga utskrifter och slösade budgetar.</p>
             </div>
 
             <div className="home-faq-item">
               <h3>Hur snabb är banderollutskriften i Stockholm?</h3>
-              <p><span className="home-faq-dot">✚</span> Vår tryckeri i Stockholm levererar beställningar inom 24 timmar, vilket</p>
+              <p><img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-faq-dot" /> Vår tryckeri i Stockholm levererar beställningar inom 24 timmar, vilket</p>
             </div>
 
             <div className="home-faq-item">
               <h3>Kommer banderollernas finish att ge ett professionellt intryck?</h3>
-              <p><span className="home-faq-dot">✚</span> Vi erbjuder precisa alternativ, såsom öljor och tunnlar, för ett elegant</p>
+              <p><img src="/icons/big-checkmark.svg" alt="big checkmark" className="home-faq-dot" /> Vi erbjuder precisa alternativ, såsom öljor och tunnlar, för ett elegant</p>
             </div>
           </div>
         </div>

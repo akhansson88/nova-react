@@ -82,7 +82,7 @@ function OmOss() {
           <div className="benefits-grid">
             {/* Benefit item 1 */}
             <div className="benefit-item">
-              <div className="benefit-icon">✓</div>
+              <img src="/icons/small-checkmark.svg" alt="small checkmark" className="benefit-icon" />
               <div>
                 <h3>Hållbara material och solvent tryck.</h3>
                 <p>
@@ -94,7 +94,7 @@ function OmOss() {
             </div>
             {/* Benefit item 2 */}
             <div className="benefit-item">
-              <div className="benefit-icon">✓</div>
+              <img src="/icons/small-checkmark.svg" alt="small checkmark" className="benefit-icon" />
               <div>
                 <h3>Fönster, väggar, roll-ups, banderoller, dekor, tryckfolier.</h3>
                 <p>
@@ -106,7 +106,7 @@ function OmOss() {
             </div>
             {/* Benefit item 3 */}
             <div className="benefit-item">
-              <div className="benefit-icon">✓</div>
+              <img src="/icons/small-checkmark.svg" alt="small checkmark" className="benefit-icon" />
               <div>
                 <h3>Snabb leverans, även inom 24/48 timmar</h3>
                 <p>
@@ -117,7 +117,7 @@ function OmOss() {
             </div>
             {/* Benefit item 4 */}
             <div className="benefit-item">
-              <div className="benefit-icon">✓</div>
+              <img src="/icons/small-checkmark.svg" alt="small checkmark" className="benefit-icon" />
               <div>
                 <h3>Rättvisa priser, utan „dolda” tillägg</h3>
                 <p>

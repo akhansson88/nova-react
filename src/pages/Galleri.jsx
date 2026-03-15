@@ -62,7 +62,7 @@ function Galleri() {
           <div className="gallery-projects-grid">
             <div className="gallery-project-item">
               <div className="gallery-project-heading">
-                <span className="gallery-project-check">✚</span>
+                <img src="/icons/small-checkmark.svg" alt="small checkmark" className="gallery-project-check" />
                 <h3>Bildekorationer – helfoliering av bilar</h3>
               </div>
               <p>Car wrapping / fordonsfoliering), partiell foliering, foliering av skåpbilar och flottor</p>
@@ -70,7 +70,7 @@ function Galleri() {
 
             <div className="gallery-project-item">
               <div className="gallery-project-heading">
-                <span className="gallery-project-check">✚</span>
+                <img src="/icons/small-checkmark.svg" alt="small checkmark" className="gallery-project-check" />
                 <h3>Fordonsdekor</h3>
               </div>
               <p>perforerad folie (one way vision), dekaler på rutor, magnetiska bilreklambanor</p>
@@ -78,7 +78,7 @@ function Galleri() {
 
             <div className="gallery-project-item">
               <div className="gallery-project-heading">
-                <span className="gallery-project-check">✚</span>
+                <img src="/icons/small-checkmark.svg" alt="small checkmark" className="gallery-project-check" />
                 <h3>Banderoller – PVC-bandroller, mesh-bandroller, blockout-bandroller</h3>
               </div>
               <p>stora fasadbanderoller, byggnadsställningsbanderoller</p>
@@ -86,7 +86,7 @@ function Galleri() {
 
             <div className="gallery-project-item">
               <div className="gallery-project-heading">
-                <span className="gallery-project-check">✚</span>
+                <img src="/icons/small-checkmark.svg" alt="small checkmark" className="gallery-project-check" />
                 <h3>Dekaler och fönsterfolier</h3>
               </div>
               <p>UV-dekaler, matt folie, spegelfolie (mirrored window film), one way vision-folie, butiksfönsterdekor</p>
