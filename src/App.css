@@ -705,8 +705,6 @@ header {
 }
 
 .home-meaning-bullet {
-  width: 18px;
-  height: 18px;
   display: block;
   object-fit: contain;
   margin-top: 5px;
@@ -809,8 +807,6 @@ header {
 }
 
 .home-summary-check {
-  width: 16px;
-  height: 16px;
   display: block;
   object-fit: contain;
   margin-bottom: 16px;
@@ -915,8 +911,6 @@ header {
 }
 
 .home-value-check {
-  width: 22px;
-  height: 22px;
   display: block;
   object-fit: contain;
   margin-top: 2px;
@@ -1171,8 +1165,6 @@ header {
 }
 
 .home-cheap-check {
-  width: 22px;
-  height: 22px;
   display: block;
   object-fit: contain;
   margin-top: 2px;
@@ -1574,8 +1566,6 @@ header {
 }
 
 .home-faq-dot {
-  width: 22px;
-  height: 22px;
   display: inline-block;
   object-fit: contain;
   flex: 0 0 auto;
@@ -1940,8 +1930,6 @@ header {
 }
 
 .checkmark-icon-small {
-  width: 18px;
-  height: 18px;
   margin-top: 4px;
 }
 
